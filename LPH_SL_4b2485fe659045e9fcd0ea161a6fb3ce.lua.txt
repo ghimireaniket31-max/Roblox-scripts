@@ -1,0 +1,4588 @@
+-- This Luraph V15.1 Cracked By SL | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+-- [SL] Luraph V15.1 Cracked & Leaked | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+
+-- internal runtime stub (VM core, not script code).
+-- LPH_ENCFUNC: (key, encrypted buffer, ...) -> function.
+local function luraph_runtime1(...)
+	error("internal runtime stub")
+end
+
+-- internal runtime stub (VM core, not script code).
+-- LPH_ENCFUNC: (key, encrypted buffer, ...) -> function.
+local function luraph_runtime2(...)
+	error("internal runtime stub")
+end
+
+-- internal runtime stub (VM core, not script code).
+-- LPH_ENCFUNC: (key, encrypted buffer, ...) -> function.
+local function luraph_runtime3(...)
+	error("internal runtime stub")
+end
+
+-- internal runtime stub (VM core, not script code).
+-- LPH_ENCFUNC: (key, encrypted buffer, ...) -> function.
+local function luraph_runtime4(...)
+	error("internal runtime stub")
+end
+
+-- internal runtime stub (VM core, not script code).
+-- LPH_ENCFUNC: (key, encrypted buffer, ...) -> function.
+local function luraph_runtime5(...)
+	error("internal runtime stub")
+end
+
+-- internal runtime stub (VM core, not script code).
+-- LPH_ENCFUNC: (key, encrypted buffer, ...) -> function.
+local function luraph_runtime6(...)
+	error("internal runtime stub")
+end
+
+-- internal runtime stub (VM core, not script code).
+-- LPH_ENCFUNC: (key, encrypted buffer, ...) -> function.
+local function luraph_runtime7(...)
+	error("internal runtime stub")
+end
+
+local v
+v = table.pack(...)
+local fn
+fn = nil
+local v2
+v2 = nil
+local v3 = nil
+local v4 = nil
+local v5 = nil
+local v6 = nil
+local v7 = nil
+local v8 = nil
+local v9 = nil
+local v10
+v10 = nil
+local v11
+v11 = nil
+local v12 = nil
+local v13 = nil
+local v14 = nil
+local v15 = nil
+local v16 = nil
+local fn2
+fn2 = v10
+local fn3
+fn3 = v11
+local fn4
+fn4 = nil
+local v17
+v17 = task
+local cancel
+cancel = v17.cancel
+local spawn
+spawn = v17.spawn
+local defer
+defer = v17.defer
+local delay
+delay = v17.delay
+local wait
+wait = v17.wait
+local v18, v19, v20, v21, v22, v23, v24, tbl, tbl2, v25
+local fn5, fn6, v26, info, traceback, n, fn7, fn8, tbl3, fn9
+local fn10, new, new2, new3, color, rect, udim2, udim, v27, v28
+
+do
+	local v29 = Instance
+	v18 = Vector3
+	local v30 = Vector2
+	v19 = CFrame
+	v20 = Random
+	v21 = identifyexecutor
+	v22 = islclosure
+	v23 = iscclosure
+	v24 = loadstring
+	tbl = { 24, 130, 73, 203, 93, 88, 135, 198, 139, 35, 21, 27 }
+	local n2 = 12
+	tbl2 = { 73, 37, 217, 143, 253, 197, 120, 41, 0, 70, 125, 39 }
+-- ~~ Luraph V15.1 | Cracked By SL ~~ https://discord.gg/zNyHGU6eUK ~~
+	local n3 = 12
+	local n4 = 8235
+	local tbl4 = {}
+	local n5 = 0
+	v25 = bit32.band(nil, 252366100)
+
+	fn5 = function(arg, arg2)
+		n5 += 1
+		tbl4[n5] = arg2 % 256
+	end
+
+	local n6 = 392552875
+
+	fn6 = function(arg)
+		while true do
+			local v31 = (nil)[4]
+			local v32 = (nil)[1]
+			local n7 = (nil)[3] + v31
+
+			local flag = v31 <= 0
+			;(nil)[3] = n7
+
+			if n7 <= v32 then
+				local n8 = arg % 256
+				arg = (arg - n8) / 256
+				n5 += 1
+				tbl4[n5] = n8
+			else
+				break
+			end
+		end
+	end
+
+	local function fn11(arg)
+		local n7 = nil
+		local tbl5 = nil
+		local tbl6 = tbl4
+		local n8 = n5
+		local tbl7 = {}
+		local tbl8 = { -1, 255, nil, nil, 1 }
+
+		while true do
+			local v31 = tbl8[5]
+			local v32 = tbl8[2]
+			local n9 = tbl8[1] + v31
+			local flag = v31 <= 0
+			tbl8[1] = n9
+
+			if n9 <= v32 then
+				tbl7[n9] = n9
+			else
+				break
+			end
+		end
+
+		local v31 = tbl8[4]
+		local v32
+
+		if arg == 318383565 then
+			local n9 = 0
+			local tbl9 = { 1, v31, -1, 255, nil }
+
+			while true do
+				local v33 = tbl9[1]
+				local v34 = tbl9[4]
+				local n10 = tbl9[3] + v33
+				local flag = v33 <= 0
+				tbl9[3] = n10
+
+				if n10 <= v34 then
+					local v35 = n10
+					local v36 = bit32.band(v35, 255)
+					n9 = bit32.band(n9 + tbl7[v36] + tbl6[v35 % n8 + 1], 255)
+					local v37 = tbl7[v36]
+					tbl7[v36] = tbl7[n9]
+					tbl7[n9] = v37
+				else
+					break
+				end
+			end
+
+			local tbl10 = {}
+			local tbl11 = { 1, tbl9[2], 0, 32, nil }
+			local n10 = 0
+			local n11 = 0
+
+			while true do
+				local v33 = tbl11[1]
+				local v34 = tbl11[4]
+				local n12 = tbl11[3] + v33
+				local flag = v33 <= 0
+				tbl11[3] = n12
+
+				if n12 <= v34 then
+					n10 = bit32.band(n10 + 1, 255)
+					n11 = bit32.band(n11 + tbl7[n10], 255)
+					local v35 = tbl7[n10]
+					tbl7[n10] = tbl7[n11]
+					tbl7[n11] = v35
+-- ====== Luraph V15.1 Cracked By SL ====== [ https://discord.gg/zNyHGU6eUK ]
+					tbl10[n12] = tbl7[bit32.band(tbl7[n10] + tbl7[n11], 255)]
+				else
+					break
+				end
+			end
+
+			local v33 = tbl11[2]
+			n5 += 1
+			tbl4[n5] = 45
+			local v34 = tbl4
+			local v35 = n5
+			local tbl12 = {}
+			local v36 = table.pack(bit32.band(nil, 4294967295))
+			local v37 = table.pack(bit32.band(arg, 4294967295))
+			local v38 = table.pack(bit32.band(v36[1], 65535))
+			local v39 = table.pack(bit32.rshift(v36[1], 16))
+			local v40 = table.pack(bit32.band(v37[1], 65535))
+			v32 = bit32.band(v38[1] * v40[1] + bit32.lshift(bit32.band(v38[1] * bit32.rshift(v37[1], 16) + v39[1] * v40[1], 65535), 16), 4294967295)
+			n8 = 32
+			local tbl13 = { nil, 1, -1, v33, 255 }
+
+			while true do
+				local v41 = tbl13[2]
+				local v42 = tbl13[5]
+				local n12 = tbl13[3] + v41
+				local flag = v41 <= 0
+				tbl13[3] = n12
+
+				if n12 <= v42 then
+					tbl12[n12] = n12
+				else
+					break
+				end
+			end
+
+			local n12 = 0
+			local tbl14 = { 255, 1, -1, nil, tbl13[4] }
+
+			while true do
+				local v41 = tbl14[2]
+				local v42 = tbl14[1]
+				local n13 = tbl14[3] + v41
+				local flag = v41 <= 0
+				tbl14[3] = n13
+
+				if n13 <= v42 then
+					local v43 = n13
+					local v44 = bit32.band(v43, 255)
+					n12 = bit32.band(n12 + tbl12[v44] + v34[v43 % v35 + 1], 255)
+					local v45 = tbl12[v44]
+					tbl12[v44] = tbl12[n12]
+					tbl12[n12] = v45
+				else
+					break
+				end
+			end
+
+			tbl5 = {}
+			local tbl15 = { 32, 0, tbl14[5], nil, 1 }
+			local n13 = 0
+			local n14 = 0
+
+			while true do
+				local v41 = tbl15[5]
+				local v42 = tbl15[1]
+				local n15 = tbl15[2] + v41
+				local flag = v41 <= 0
+				tbl15[2] = n15
+
+				if n15 <= v42 then
+					n13 = bit32.band(n13 + 1, 255)
+					n14 = bit32.band(n14 + tbl12[n13], 255)
+					local v43 = tbl12[n13]
+					tbl12[n13] = tbl12[n14]
+					tbl12[n14] = v43
+					tbl5[n15] = tbl12[bit32.band(tbl12[n13] + tbl12[n14], 255)]
+				else
+					break
+				end
+			end
+
+			local v41 = tbl15[3]
+			tbl4[n5] = 0
+			n5 -= 1
+			bit32.band(nil, v32)
+			local tbl16 = { v41, nil, n2 + 0, 0, 1 }
+			tbl7 = 32
+
+			while true do
+				local v42 = tbl16[5]
+				local v43 = tbl16[3]
+				local n15 = tbl16[4] + v42
+				local flag = v42 <= 0
+				tbl16[4] = n15
+
+				if n15 <= v43 then
+					n8 += 1
+					tbl10[n8] = tbl[n15]
+				else
+-- SL | Luraph V15.1 Cracked & Released | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+					break
+				end
+			end
+
+			local tbl17 = { n3 + 0, tbl16[1], 0, 1, nil }
+
+			while true do
+				local v42 = tbl17[4]
+				local v43 = tbl17[1]
+				local n15 = tbl17[3] + v42
+				local flag = v42 <= 0
+				tbl17[3] = n15
+
+				if n15 <= v43 then
+					tbl7 += 1
+					tbl5[tbl7] = tbl2[n15]
+				else
+					break
+				end
+			end
+
+			local tbl18 = {}
+			local n15 = 255
+			local tbl19 = { nil, 1, -1, tbl17[2], n15 }
+			local flag
+
+			while true do
+				local v42 = tbl19[2]
+				local v43 = tbl19[5]
+				local n16 = tbl19[3] + v42
+				local flag2 = v42 <= 0
+				flag = n16 <= v43
+				tbl19[3] = n16
+
+				if flag then
+					tbl18[n16] = n16
+				else
+					break
+				end
+			end
+
+			local v42 = tbl19[4]
+			local n16
+
+			if n8 < 256 then
+				n16 = 256
+			else
+				n16 = n8
+			end
+			;(nil)[">f"] = nil
+			local n17 = 0
+			local tbl20 = { n16 - 1 + 0, nil, v42, flag, n15 }
+
+			while true do
+				local v43 = tbl20[5]
+				local v44 = tbl20[1]
+				local n18 = tbl20[4] + v43
+				local flag2 = v43 <= 0
+				tbl20[4] = n18
+
+				if n18 <= v44 then
+					local v45 = n18
+					local v46 = bit32.band(v45, 255)
+					n17 = bit32.band(n17 + tbl18[v46] + tbl10[v45 % n8 + 1], 255)
+					local v47 = tbl18[v46]
+					tbl18[v46] = tbl18[n17]
+					tbl18[n17] = v47
+				else
+					break
+				end
+			end
+
+			tbl6 = {}
+			local tbl21 = { tbl20[3], 1, -1, 255, nil }
+
+			while true do
+				local v43 = tbl21[2]
+				local v44 = tbl21[4]
+				local n18 = tbl21[3] + v43
+				local flag2 = v43 <= 0
+				tbl21[3] = n18
+
+				if n18 <= v44 then
+					tbl6[n18] = n18
+				else
+					break
+				end
+			end
+
+			v31 = tbl21[1]
+
+			if tbl7 < 256 then
+				n7 = 256
+			else
+				n7 = tbl7
+			end
+		end
+
+		local tbl9 = { v31, -1, 1, nil, n7 - 1 + 0 }
+-- *.*.* Luraph V15.1 Cracked By SL *.*.* [ https://discord.gg/zNyHGU6eUK ]
+		local n9 = 0
+		local v33 = tbl9
+
+		while true do
+			local v34 = v33[3]
+			local v35 = v33[5]
+			local n10 = v33[2] + v34
+			local flag = v34 <= 0
+			v33[2] = n10
+
+			if n10 <= v35 then
+				local v36 = n10
+				local v37 = bit32.band(v36, 255)
+				n9 = bit32.band(n9 + tbl6[v37] + tbl5[v36 % tbl7 + 1], 255)
+				local v38 = tbl6[v37]
+				tbl6[v37] = tbl6[n9]
+				tbl6[n9] = v38
+			else
+				break
+			end
+		end
+
+		local v34 = v33[1]
+		local v35 = table.pack(bit32.band(v32, 4294967295))
+		local v36 = table.pack(bit32.band(arg, 4294967295))
+		local v37 = table.pack(bit32.band(v35[1], 65535))
+		local v38 = table.pack(bit32.rshift(v35[1], 16))
+		local v39 = table.pack(bit32.band(v36[1], 65535))
+		bit32.band(v37[1] * v39[1] + bit32.lshift(bit32.band(v37[1] * bit32.rshift(v36[1], 16) + v38[1] * v39[1], 65535), 16), 4294967295)
+		error("SL: unresolved constant write (at 166:1915)")
+	end
+
+	local function fn12(arg, arg2)
+		local v31, v32 = fn11(702473885 - 384090320)
+		local v33 = luraph_runtime6(table.pack(v8, v9, v4), nil, nil)()
+		local tbl5 = { 1, nil, 255, nil, -1 }
+
+		while true do
+			local v34 = tbl5[1]
+			local v35 = tbl5[3]
+			local n7 = tbl5[5] + v34
+			local flag = v34 <= 0
+			tbl5[5] = n7
+
+			if n7 <= v35 then
+				v31[n7] = 0
+			else
+				break
+			end
+		end
+
+		local v34 = tbl5[2]
+		local n7 = buffer.len(v33) - 176 - 141
+		local v35
+
+		if n4 < n7 then
+			v35 = n4
+		else
+			v35 = n7
+		end
+
+		local v36 = buffer.create(v35)
+		local v37 = nil
+		local n8 = 0
+		local n9 = 0
+		local n10 = 176
+		local tbl6 = { v34, v37, 4, -4, v35 - v35 % 4 - 1 + 0 }
+		local flag
+
+		while true do
+			local v38 = tbl6[3]
+			local v39 = tbl6[5]
+			local n11 = tbl6[4] + v38
+			local flag2 = v38 <= 0
+			flag = n11 <= v39
+			tbl6[4] = n11
+
+			if flag then
+				local v40 = n11
+				local v41 = bit32.band(n8 + 1, 255)
+				local v42 = bit32.band(n9 + v32[v41], 255)
+				local v43 = v32[v41]
+				v32[v41] = v32[v42]
+				v32[v42] = v43
+				local v44 = bit32.lshift(v32[bit32.band(v32[v41] + v32[v42], 255)], 0)
+				local v45 = bit32.bor(0, v44)
+				local v46 = bit32.band(v41 + 1, 255)
+				local v47 = bit32.band(v42 + v32[v46], 255)
+				local v48 = v32[v46]
+				v32[v46] = v32[v47]
+				v32[v47] = v48
+				local v49 = bit32.lshift(v32[bit32.band(v32[v46] + v32[v47], 255)], 8)
+				local v50 = bit32.bor(v45, v49)
+				local v51 = bit32.band(v46 + 1, 255)
+				local v52 = bit32.band(v47 + v32[v51], 255)
+				local v53 = v32[v51]
+				v32[v51] = v32[v52]
+				v32[v52] = v53
+				local v54 = bit32.lshift(v32[bit32.band(v32[v51] + v32[v52], 255)], 16)
+-- ----------- SL | Luraph V15.1 | Cracked ----------- [ https://discord.gg/zNyHGU6eUK ]
+				local v55 = bit32.bor(v50, v54)
+				local v56 = bit32.band(v51 + 1, 255)
+				local v57 = bit32.band(v52 + v32[v56], 255)
+				local v58 = v32[v56]
+				v32[v56] = v32[v57]
+				v32[v57] = v58
+				local v59 = bit32.lshift(v32[bit32.band(v32[v56] + v32[v57], 255)], 24)
+				local v60 = bit32.bor(v55, v59)
+				local v61 = bit32.bxor(buffer.readu32(v33, n10 + v40), v60)
+				buffer.writeu32(v36, v40, v61)
+				n8 = v56
+				n9 = v57
+			else
+				break
+			end
+		end
+
+		while true do
+			bit32.bnot(nil)
+			flag(9, 1549556828)
+
+			upv16 = "The metatable is locked"
+			;(nil)()
+		end
+	end
+
+	v26 = assert(debug, "The debug library is required on Luau platforms. Please open a support ticket.")
+	info = v26.info
+	traceback = v26.traceback
+	n6 = 428997974
+	n = 329116853
+
+	fn7 = function()
+		(nil)(194781294, nil, nil, nil, nil, nil)
+		local n7 = 162448399
+		local n8 = 449779
+
+		while true do
+			n7 += n8
+		end
+	end
+
+	fn8 = function()
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	tbl3 = {}
+	tbl3[false] = true
+	tbl3[true] = false
+	local tbl5 = {}
+
+	fn9 = function(arg, arg2)
+		if not nil then
+			if nil then
+				if nil then
+					return false
+				end
+
+				if nil then
+					return true
+				end
+				return false
+			end
+		end
+
+		tbl5[arg] = true
+		local v31 = tbl5[arg2]
+		tbl5[arg] = nil
+		return v31
+	end
+
+	local function fn13(arg, arg2)
+		local v31 = tbl3
+		local v32, str
+
+		if v31[not arg] then
+			v32 = type
+			str = "table"
+		else
+			str = v31
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+
+			if type(str) ~= "string" then
+				v32 = type
+				str = "table"
+			end
+		end
+
+		local v33 = v32(arg)
+		fn9(str, v33)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+-- [ SL x Luraph V15.1 ] Cracked & Open | discord.gg/zNyHGU6eUK
+		end
+
+		local v34 = getmetatable(arg)
+		fn9(nil, v34)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		pcall(setmetatable, arg, nil)
+	end
+
+	fn10 = function(arg, arg2, ...)
+		local v31 = table.pack((nil)(arg, 1, -1))
+		;(nil)[1] = nil
+		;(nil)[2] = select("#", table.unpack(t144_18_1, 1, t144_18_1.n)) + 0
+		;(nil)[3] = 0
+		;(nil)[4] = 1
+		;(nil)[5] = nil
+		local v32 = nil
+
+		while true do
+			local n7 = v32[3] + v32[4]
+			v32[3] = n7
+
+			if nil then
+				local v33 = bit32.bxor(2166136261, v31[n7])
+
+				if not nil then
+					local n8 = v33 % 65536
+				end
+			else
+				break
+			end
+		end
+
+		local n7 = 3218497067
+		bit32.bxor(arg2, 243434359)
+
+		if nil then
+			bit32.bxor(arg2, 2955630833)
+		end
+
+		return n7
+	end
+
+	local function fn14(arg, arg2)
+		local v31 = table.pack(p_1())
+
+		if v31[1] then
+			local v32 = v31[2]
+
+			while true do
+				arg2[fn10(v32, 516226591)] = nil
+				local v33 = table.pack(p_1())
+
+				if v33[1] then
+					v32 = v33[2]
+				else
+					break
+				end
+			end
+		end
+
+		local v32 = table.pack(p_1())
+
+		if v32[1] then
+			repeat
+				fn6(428102605, 4)
+				n = 244379128
+				fn7()
+				local v33 = table.pack(p_1())
+			until not v33[1]
+		end
+	end
+
+	fn13(v29, 296033538)
+	fn13(v18, 296033538)
+	fn13(v30, 296033538)
+	fn13(v19, 296033538)
+	fn13(v20, 296033538)
+	new = v29.new
+	new2 = v18.new
+	new3 = v30.new
+	color = Color3.new
+	rect = Rect.new
+	udim2 = UDim2.new
+	udim = UDim.new
+	v27 = fn13
+	v28 = fn14
+end
+
+local new4
+new4 = Path2DControlPoint.new
+local fn11
+
+fn11 = function(arg, arg2, arg3)
+-- [SL] Luraph V15.1 Cracked & Leaked | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+	local exitTo11 = nil
+	local exitTo8, n2, exitTo6, exitTo2, exitTo4, exitTo3, exitTo
+
+	while nil do
+		local exitTo10 = nil
+
+		while true do
+			local kind = type(arg)
+			fn9("function", kind)
+
+			if not nil then
+				fn6(428102605, 4)
+				n = 244379128
+				fn7()
+			end
+
+			local exitTo9 = nil
+
+			while true do
+				local v29, v30, v31, v32, v33, v34 = info(arg, "slnaf")
+				fn9("[C]", v29)
+				local n3
+
+				if not nil then
+					fn6(428102605, 4)
+					n = 244379128
+					fn7()
+					n3 = 5665027332
+				end
+
+				exitTo8 = nil
+
+				while true do
+					fn9(-1, v30)
+
+					if not nil then
+						fn6(428102605, 4)
+						n = 244379128
+						fn7()
+					end
+
+					local exitTo7 = nil
+
+					while true do
+						fn9(0, v32)
+
+						if not nil then
+							fn6(428102605, 4)
+							n = 244379128
+							fn7()
+							local v35 = table.pack(bit32.band(n2, 4294967295))
+							local v36 = table.pack(bit32.band(arg2, 4294967295))
+							local v37 = table.pack(bit32.band(v35[1], 65535))
+							local v38 = table.pack(bit32.rshift(v35[1], 16))
+							local v39 = table.pack(bit32.band(v36[1], 65535))
+							n2 = bit32.band(v37[1] * v39[1] + bit32.lshift(bit32.band(v37[1] * bit32.rshift(v36[1], 16) + v38[1] * v39[1], 65535), 16), 4294967295) + 3120142178
+						end
+
+						exitTo6 = nil
+
+						while true do
+							fn9(true, v33)
+
+							if not nil then
+								fn6(428102605, 4)
+								n = 244379128
+								fn7()
+							end
+
+							local exitTo5 = nil
+
+							while true do
+								fn9(arg, v34)
+
+								if not nil then
+									fn6(428102605, 4)
+									n = 244379128
+									fn7()
+								end
+
+								exitTo2 = nil
+								local exitTo12 = nil
+
+								while true do
+									local v35
+
+									if arg3 then
+										exitTo4 = nil
+
+										while true do
+											fn9(arg3, v31)
+
+											if not nil then
+												fn6(428102605, 4)
+												n = 244379128
+												local v36 = table.pack(bit32.band(n2, 4294967295))
+												local v37 = table.pack(bit32.band(arg2, 4294967295))
+												local v38 = table.pack(bit32.band(v36[1], 65535))
+												local v39 = table.pack(bit32.rshift(v36[1], 16))
+-- This Luraph V15.1 Cracked By SL | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+												local v40 = table.pack(bit32.band(v37[1], 65535))
+												v35 = bit32.band(v38[1] * v40[1] + bit32.lshift(bit32.band(v38[1] * bit32.rshift(v37[1], 16) + v39[1] * v40[1], 65535), 16), 4294967295)
+												fn7()
+												n2 = v35 + 3120142178
+											end
+
+											exitTo3 = nil
+
+											while true do
+												if v21 then
+													exitTo3 = 1
+													break
+												else
+													if nil then
+														if nil <= 10 then
+															if nil <= 4 then
+																if nil <= 1 then
+																	if not (nil <= 0) then
+																		continue
+																	end
+																elseif nil <= 2 then
+																	exitTo3 = 1
+																	break
+																elseif nil <= 3 then
+																	fn6(428102605, 4)
+																	n = 244379128
+																	local v36 = table.pack(bit32.band(n2, 4294967295))
+																	local v37 = table.pack(bit32.band(arg2, 4294967295))
+																	local v38 = table.pack(bit32.band(v36[1], 65535))
+																	local v39 = table.pack(bit32.rshift(v36[1], 16))
+																	local v40 = table.pack(bit32.band(v37[1], 65535))
+																	v35 = bit32.band(v38[1] * v40[1] + bit32.lshift(bit32.band(v38[1] * bit32.rshift(v37[1], 16) + v39[1] * v40[1], 65535), 16), 4294967295)
+																	fn7()
+																	n2 = v35 + 3120142178
+																	continue
+																else
+																	exitTo3 = 4
+																	break
+																end
+															else
+																exitTo3 = 3
+																break
+															end
+														else
+															exitTo3 = 2
+															break
+														end
+													end
+
+													break
+												end
+											end
+
+											if exitTo3 == 1 then
+												exitTo4 = 1
+												break
+											elseif exitTo3 == 2 then
+												if nil <= 16 then
+													if nil <= 13 then
+														exitTo4 = 3
+														break
+													elseif nil <= 14 then
+														exitTo4 = 4
+														break
+													elseif nil <= 15 then
+														continue
+													else
+														exitTo4 = 5
+														break
+													end
+												else
+													exitTo4 = 2
+													break
+												end
+											end
+
+											break
+										end
+
+										if exitTo4 == 1 then
+											exitTo12 = 1
+											break
+										end
+
+										if exitTo4 == 2 then
+											if nil <= 19 then
+												exitTo12 = 11
+												break
+											end
+
+											if nil <= 20 then
+												fn6(428102605, 4)
+												n = 244379128
+												fn7()
+												continue
+											end
+
+											exitTo12 = 12
+											break
+-- SL | Luraph V15.1 Cracked & Released | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+										end
+
+										if exitTo4 ~= 3 then
+											exitTo12 = 8
+											break
+										end
+									else
+										exitTo = nil
+
+										while true do
+											if v21 then
+												exitTo = 1
+												break
+											else
+												if nil then
+													if nil <= 10 then
+														if nil <= 4 then
+															if nil <= 1 then
+																if not (nil <= 0) then
+																	continue
+																end
+															elseif nil <= 2 then
+																exitTo = 1
+																break
+															elseif nil <= 3 then
+																fn6(428102605, 4)
+																n = 244379128
+																local v36 = table.pack(bit32.band(n2, 4294967295))
+																local v37 = table.pack(bit32.band(arg2, 4294967295))
+																local v38 = table.pack(bit32.band(v36[1], 65535))
+																local v39 = table.pack(bit32.rshift(v36[1], 16))
+																local v40 = table.pack(bit32.band(v37[1], 65535))
+																v35 = bit32.band(v38[1] * v40[1] + bit32.lshift(bit32.band(v38[1] * bit32.rshift(v37[1], 16) + v39[1] * v40[1], 65535), 16), 4294967295)
+																fn7()
+																n2 = v35 + 3120142178
+																continue
+															else
+																exitTo = 4
+																break
+															end
+														else
+															exitTo = 3
+															break
+														end
+													else
+														exitTo = 2
+														break
+													end
+												end
+
+												break
+											end
+										end
+
+										if exitTo == 1 then
+											exitTo12 = 1
+											break
+										end
+
+										if exitTo ~= 2 then
+											exitTo12 = 2
+											break
+										end
+
+										if not (nil <= 16) then
+											if nil <= 19 then
+												exitTo12 = 3
+												break
+											end
+
+											if nil <= 20 then
+												fn6(428102605, 4)
+												n = 244379128
+												fn7()
+												continue
+											end
+
+											exitTo12 = 4
+											break
+										end
+
+										if not (nil <= 13) then
+											if nil <= 14 then
+												exitTo12 = 5
+												break
+											end
+
+											if not (nil <= 15) then
+												exitTo12 = 6
+												break
+											end
+											exitTo4 = nil
+
+											while true do
+												fn9(arg3, v31)
+
+												if not nil then
+													fn6(428102605, 4)
+													n = 244379128
+-- ====== Luraph V15.1 Cracked By SL ====== [ https://discord.gg/zNyHGU6eUK ]
+													local v36 = table.pack(bit32.band(n2, 4294967295))
+													local v37 = table.pack(bit32.band(arg2, 4294967295))
+													local v38 = table.pack(bit32.band(v36[1], 65535))
+													local v39 = table.pack(bit32.rshift(v36[1], 16))
+													local v40 = table.pack(bit32.band(v37[1], 65535))
+													v35 = bit32.band(v38[1] * v40[1] + bit32.lshift(bit32.band(v38[1] * bit32.rshift(v37[1], 16) + v39[1] * v40[1], 65535), 16), 4294967295)
+													fn7()
+													n2 = v35 + 3120142178
+												end
+
+												exitTo3 = nil
+
+												while true do
+													if v21 then
+														exitTo3 = 1
+														break
+													else
+														if nil then
+															if nil <= 10 then
+																if nil <= 4 then
+																	if nil <= 1 then
+																		if not (nil <= 0) then
+																			continue
+																		end
+																	elseif nil <= 2 then
+																		exitTo3 = 1
+																		break
+																	elseif nil <= 3 then
+																		fn6(428102605, 4)
+																		n = 244379128
+																		local v36 = table.pack(bit32.band(n2, 4294967295))
+																		local v37 = table.pack(bit32.band(arg2, 4294967295))
+																		local v38 = table.pack(bit32.band(v36[1], 65535))
+																		local v39 = table.pack(bit32.rshift(v36[1], 16))
+																		local v40 = table.pack(bit32.band(v37[1], 65535))
+																		v35 = bit32.band(v38[1] * v40[1] + bit32.lshift(bit32.band(v38[1] * bit32.rshift(v37[1], 16) + v39[1] * v40[1], 65535), 16), 4294967295)
+																		fn7()
+																		n2 = v35 + 3120142178
+																		continue
+																	else
+																		exitTo3 = 4
+																		break
+																	end
+																else
+																	exitTo3 = 3
+																	break
+																end
+															else
+																exitTo3 = 2
+																break
+															end
+														end
+
+														break
+													end
+												end
+
+												if exitTo3 == 1 then
+													exitTo4 = 1
+													break
+												elseif exitTo3 == 2 then
+													if nil <= 16 then
+														if nil <= 13 then
+															exitTo4 = 3
+															break
+														elseif nil <= 14 then
+															exitTo4 = 4
+															break
+														elseif nil <= 15 then
+															continue
+														else
+															exitTo4 = 5
+															break
+														end
+													else
+														exitTo4 = 2
+														break
+													end
+												end
+
+												break
+											end
+
+											if exitTo4 == 1 then
+												exitTo12 = 1
+												break
+											end
+
+											if exitTo4 == 2 then
+												if nil <= 19 then
+													exitTo12 = 11
+													break
+												end
+
+												if nil <= 20 then
+													fn6(428102605, 4)
+													n = 244379128
+													fn7()
+													continue
+-- ~~ Luraph V15.1 | Cracked By SL ~~ https://discord.gg/zNyHGU6eUK ~~
+												end
+
+												exitTo12 = 12
+												break
+											end
+
+											if exitTo4 ~= 3 then
+												exitTo12 = 7
+												break
+											end
+										end
+									end
+
+									if nil <= 11 then
+										exitTo12 = 9
+										break
+									end
+
+									if nil <= 12 then
+										continue
+									end
+									exitTo12 = 10
+									break
+								end
+
+								if exitTo12 == 1 then
+									exitTo2 = 1
+								elseif exitTo12 == 2 then
+									exitTo2 = 2
+								elseif exitTo12 == 3 then
+									exitTo2 = 5
+								elseif exitTo12 == 4 then
+									exitTo2 = 6
+								elseif exitTo12 == 5 then
+									exitTo2 = 3
+								elseif exitTo12 == 6 then
+									exitTo2 = 4
+								elseif exitTo12 == 7 then
+									if exitTo4 == 4 then
+										exitTo2 = 3
+									elseif exitTo4 == 5 then
+										exitTo2 = 4
+									elseif exitTo3 == 3 then
+										exitTo2 = 9
+									elseif exitTo3 == 4 then
+										exitTo2 = 10
+									end
+								elseif exitTo12 == 8 then
+									if exitTo4 == 4 then
+										exitTo2 = 3
+									elseif exitTo4 == 5 then
+										exitTo2 = 4
+									elseif exitTo3 == 3 then
+										exitTo2 = 9
+									elseif exitTo3 == 4 then
+										exitTo2 = 10
+									end
+								elseif exitTo12 == 9 then
+									exitTo2 = 7
+								elseif exitTo12 == 10 then
+									exitTo2 = 8
+								elseif exitTo12 == 11 then
+									exitTo2 = 5
+								elseif exitTo12 == 12 then
+									exitTo2 = 6
+								end
+
+								if exitTo2 == 1 then
+									exitTo5 = 1
+									break
+								elseif exitTo2 == 2 then
+									exitTo5 = 2
+									break
+								elseif exitTo2 == 3 then
+									fn6(428102605, 4)
+									n = 244379128
+									fn7()
+									continue
+								elseif exitTo2 == 4 then
+									exitTo5 = 3
+									break
+								elseif exitTo2 == 5 then
+									exitTo5 = 4
+									break
+								elseif exitTo2 == 6 then
+									exitTo5 = 5
+									break
+								elseif exitTo2 == 7 then
+									exitTo5 = 6
+									break
+								elseif exitTo2 == 8 then
+									continue
+								end
+
+								break
+							end
+
+							if exitTo5 == 1 then
+								exitTo6 = 1
+-- ----------- SL | Luraph V15.1 | Cracked ----------- [ https://discord.gg/zNyHGU6eUK ]
+								break
+							elseif exitTo5 == 2 then
+								if exitTo == 3 then
+									if nil <= 7 then
+										if nil <= 5 then
+											exitTo6 = 9
+											break
+										elseif nil <= 6 then
+											continue
+										else
+											exitTo6 = 10
+											break
+										end
+									else
+										exitTo6 = 8
+										break
+									end
+								else
+									exitTo6 = 7
+									break
+								end
+							elseif exitTo5 == 3 then
+								exitTo6 = 2
+								break
+							elseif exitTo5 == 4 then
+								if not (nil <= 17) then
+									if nil <= 18 then
+										fn6(428102605, 4)
+										n = 244379128
+										fn7()
+										local v35 = table.pack(bit32.band(n2, 4294967295))
+										local v36 = table.pack(bit32.band(arg2, 4294967295))
+										local v37 = table.pack(bit32.band(v35[1], 65535))
+										local v38 = table.pack(bit32.rshift(v35[1], 16))
+										local v39 = table.pack(bit32.band(v36[1], 65535))
+										n2 = bit32.band(v37[1] * v39[1] + bit32.lshift(bit32.band(v37[1] * bit32.rshift(v36[1], 16) + v38[1] * v39[1], 65535), 16), 4294967295) + 3120142178
+										continue
+									else
+										exitTo6 = 6
+										break
+									end
+								end
+							elseif exitTo5 == 5 then
+								exitTo6 = 3
+								break
+							elseif exitTo5 == 6 then
+								exitTo6 = 4
+								break
+							elseif exitTo2 == 9 then
+								if nil <= 7 then
+									if nil <= 5 then
+										exitTo6 = 9
+										break
+									elseif nil <= 6 then
+										continue
+									else
+										exitTo6 = 10
+										break
+									end
+								else
+									exitTo6 = 8
+									break
+								end
+							else
+								exitTo6 = 5
+								break
+							end
+
+							break
+						end
+
+						if exitTo6 == 1 then
+							exitTo7 = 1
+							break
+						elseif exitTo6 == 2 then
+							exitTo7 = 2
+							break
+						elseif exitTo6 == 3 then
+							if nil <= 21 then
+								exitTo7 = 5
+								break
+							else
+								fn6(428102605, 4)
+								n = 244379128
+								fn7()
+								continue
+							end
+						elseif exitTo6 == 4 then
+							exitTo7 = 3
+							break
+						elseif exitTo6 == 5 then
+							exitTo7 = 4
+							break
+						elseif exitTo6 == 6 then
+							continue
+						end
+
+						break
+					end
+-- [ SL x Luraph V15.1 ] Cracked & Open | discord.gg/zNyHGU6eUK
+
+					if exitTo7 == 1 then
+						exitTo8 = 1
+						break
+					elseif exitTo7 == 2 then
+						exitTo8 = 2
+						break
+					elseif exitTo7 == 3 then
+						exitTo8 = 3
+						break
+					elseif exitTo7 == 4 then
+						exitTo8 = 4
+						break
+					elseif exitTo7 == 5 then
+						exitTo8 = 5
+						break
+					elseif exitTo6 == 7 then
+						exitTo8 = 6
+						break
+					elseif exitTo6 ~= 8 then
+						if exitTo6 == 9 then
+							fn6(428102605, 4)
+							n = 244379128
+							fn7()
+							n3 = 5665027332
+							continue
+						elseif exitTo6 == 10 then
+							exitTo8 = 7
+							break
+						else
+							continue
+						end
+					end
+
+					break
+				end
+
+				if exitTo8 == 1 then
+					exitTo9 = 1
+					break
+				elseif exitTo8 == 2 then
+					exitTo9 = 2
+					break
+				elseif exitTo8 == 3 then
+					fn6(428102605, 4)
+					n = 244379128
+					fn7()
+					continue
+				elseif exitTo8 == 4 then
+					if exitTo2 == 10 then
+						continue
+					end
+				elseif exitTo8 == 5 then
+					exitTo9 = 3
+					break
+				elseif exitTo8 == 6 then
+					if exitTo == 4 then
+						continue
+					end
+				else
+					exitTo9 = 4
+					break
+				end
+
+				break
+			end
+
+			if exitTo9 == 1 then
+				exitTo10 = 1
+				break
+			elseif exitTo9 == 2 then
+				exitTo10 = 2
+				break
+			elseif exitTo9 == 3 then
+				exitTo10 = 3
+				break
+			elseif exitTo9 == 4 then
+				if exitTo8 == 7 then
+					exitTo10 = 4
+					break
+				elseif nil <= 8 then
+					continue
+				else
+					exitTo10 = 5
+					break
+				end
+			end
+
+			break
+		end
+
+		if exitTo10 == 1 then
+			exitTo11 = 1
+			break
+		elseif exitTo10 == 2 then
+			exitTo11 = 2
+			break
+		elseif exitTo10 == 3 then
+			exitTo11 = 3
+-- *.*.* Luraph V15.1 Cracked By SL *.*.* [ https://discord.gg/zNyHGU6eUK ]
+			break
+		elseif exitTo10 == 4 then
+			exitTo11 = 4
+			break
+		elseif exitTo10 == 5 then
+			if nil <= 9 then
+				exitTo11 = 5
+				break
+			else
+				continue
+			end
+		end
+
+		break
+	end
+
+	local v29
+
+	if exitTo11 == 1 then
+		local v30 = v23(arg)
+		fn9(true, v30)
+
+		if nil then
+			v29 = v22(arg)
+			fn9(false, v29)
+
+			if not nil then
+				fn6(428102605, 4)
+				n = 244379128
+				fn7()
+			end
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+			v29 = v22(arg)
+			fn9(false, v29)
+
+			if not nil then
+				fn6(428102605, 4)
+				n = 244379128
+				fn7()
+				return
+			end
+		end
+	elseif exitTo11 == 2 then
+		v29 = v22(arg)
+		fn9(false, v29)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+			return
+		end
+
+		return
+	elseif exitTo11 == 3 then
+		return
+	elseif exitTo11 == 4 then
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+		return
+	elseif exitTo11 == 5 then
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+		v29 = v22(arg)
+		fn9(false, v29)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+			return
+		end
+
+		return
+	end
+end
+
+fn11(getmetatable, 276719723, "getmetatable")
+fn11(setmetatable, 276719723, "setmetatable")
+fn11(tonumber, 276719723, "tonumber")
+fn11(tostring, 276719723, "tostring")
+fn11(rawset, 276719723, "rawset")
+fn11(rawget, 276719723, "rawget")
+fn11(select, 276719723, "select")
+fn11(xpcall, 276719723, "xpcall")
+fn11(assert, 276719723, "assert")
+fn11(error, 276719723, "error")
+fn11(pcall, 276719723, "pcall")
+fn11(type, 276719723, "type")
+local n2, n3, v29, v30, n4, v31
+
+do
+	local n5 = v25 - 762367764
+	fn11(next, 276719723, "next")
+-- ~~ Luraph V15.1 | Cracked By SL ~~ https://discord.gg/zNyHGU6eUK ~~
+	fn11(typeof, 276719723, "typeof")
+	fn11(string.gmatch, 276719723, "gmatch")
+	fn11(string.format, 276719723, "format")
+	fn11(string.match, 276719723, "match")
+	fn11(string.find, 276719723, "find")
+	fn11(string.char, 276719723, "char")
+	fn11(string.byte, 276719723, "byte")
+	fn11(string.gsub, 276719723, "gsub")
+	fn11(string.sub, 276719723, "sub")
+	fn11(string.rep, 276719723, "rep")
+	fn11(string.unpack, 276719723, "unpack")
+	fn11(string.pack, 276719723, "pack")
+	fn11(table.concat, 276719723, "concat")
+	fn11(table.insert, 276719723, "insert")
+	fn11(table.pack, 276719723, "pack")
+	fn11(table.clear, 276719723, "clear")
+	fn11(table.create, 276719723, "create")
+	fn11(table.move, 276719723, "move")
+	fn11(bit32.bor, 276719723, "bor")
+	fn11(bit32.bnot, 276719723, "bnot")
+	fn11(bit32.bxor, 276719723, "bxor")
+	fn11(bit32.band, 276719723, "band")
+	local n6 = 5081636517 + n5
+	fn11(bit32.lshift, 276719723, "lshift")
+	fn11(bit32.rshift, 276719723, "rshift")
+	fn11(bit32.rrotate, 276719723, "rrotate")
+	fn11(bit32.lrotate, 276719723, "lrotate")
+	fn11(bit32.countlz, 276719723, "countlz")
+	fn11(bit32.countrz, 276719723, "countrz")
+	fn11(buffer.len, 276719723, "len")
+	fn11(buffer.fill, 276719723, "fill")
+	fn11(buffer.copy, 276719723, "copy")
+	fn11(buffer.create, 276719723, "create")
+	fn11(buffer.tostring, 276719723, "tostring")
+	fn11(buffer.fromstring, 276719723, "fromstring")
+	fn11(buffer.readstring, 276719723, "readstring")
+	n2 = n5 - n6
+	fn11(buffer.writestring, 276719723, "writestring")
+	fn11(buffer.readi8, 276719723, "readi8")
+	fn11(buffer.readu8, 276719723, "readu8")
+	fn11(buffer.readi16, 276719723, "readi16")
+	fn11(buffer.readu16, 276719723, "readu16")
+	fn11(buffer.readi32, 276719723, "readi32")
+	fn11(buffer.readu32, 276719723, "readu32")
+	fn11(buffer.readf32, 276719723, "readf32")
+	fn11(buffer.readf64, 276719723, "readf64")
+	fn11(buffer.writei8, 276719723, "writei8")
+	fn11(buffer.writeu8, 276719723, "writeu8")
+	local n7 = n6 + 388155174
+	fn11(buffer.writei16, 276719723, "writei16")
+	fn11(buffer.writeu16, 276719723, "writeu16")
+	fn11(buffer.writei32, 276719723, "writei32")
+	fn11(buffer.writeu32, 276719723, "writeu32")
+	fn11(buffer.writef32, 276719723, "writef32")
+	fn11(buffer.writef64, 276719723, "writef64")
+	fn11(buffer.readbits, 276719723, "readbits")
+	local n8 = 0 - n7
+	fn11(buffer.writebits, 276719723, "writebits")
+	fn11(coroutine.isyieldable, 276719723, "isyieldable")
+	fn11(coroutine.running, 276719723, "running")
+	fn11(coroutine.create, 276719723, "create")
+	fn11(coroutine.status, 276719723, "status")
+	fn11(coroutine.yield, 276719723, "yield")
+	fn11(coroutine.close, 276719723, "close")
+	fn11(coroutine.resume, 276719723, "resume")
+	fn11(coroutine.wrap, 276719723, "wrap")
+	fn11(cancel, 276719723, "cancel")
+	fn11(spawn, 276719723, "spawn")
+	fn11(defer, 276719723, "defer")
+	fn11(delay, 276719723, "delay")
+	fn11(wait, 276719723, "wait")
+	fn11(unpack, 276719723, "unpack")
+	fn11(info, 276719723, "info")
+	fn11(traceback, 276719723, "traceback")
+	fn11(v24, 276719723)
+	local v32 = pcall
+	local v33 = xpcall
+	local n9 = 94786020
+	local n10 = 24723310
+	new3(0.81383379451646309, 0.46406022512313105, 0.46848735975826505)
+	new("Folder")
+	local ScreenGui = new("ScreenGui")
+	local Frame = new("Frame")
+	local Path2D = new("Path2D")
+	Frame.Parent = ScreenGui
+	Path2D.Parent = Frame
+	n3 = n7 + n2
+	vector.create(0.28373805520909, 0.99371986527406364, 0.46278234582839217)
+
+	local function fn12()
+		assert(0.44290854034827698)
+		type(0.8275692108286955)
+		typeof(0.34208990131236539)
+		select(nil, 0.14659063512748738, 0.92427312006985929, 0.36257504972169541)
+		tonumber(0.37723546820203668)
+		tostring(0.84817762176972178)
+		rawequal(nil, scratch)
+		local tbl4 = {}
+		next(tbl4)
+-- This Luraph V15.1 Cracked By SL | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+		pairs(tbl4)(tbl4)
+		ipairs(tbl4)(tbl4, 1)
+		rawlen(tbl4)
+		rawget(tbl4, 0.74836613251794715)
+		rawset(nil, 0.28961634824509963, 0.66880566453250312)
+		getmetatable(tbl4)
+		setmetatable(tbl4, tbl4)
+		setmetatable(tbl4, nil)
+		info(7547, "slnaf")
+		bit32.bor(44, 46)
+		bit32.bxor(121, 186)
+		bit32.band(207, 240)
+		bit32.bnot(100)
+		bit32.lshift(72, 21)
+		bit32.rshift(15, 9)
+		bit32.lrotate(2, 12)
+		bit32.rrotate(30, 6)
+		bit32.countlz(102)
+		bit32.countrz(211)
+		local v34 = buffer.create(229)
+		buffer.len(v34)
+		buffer.fromstring("")
+		buffer.tostring(v34)
+		buffer.readi8(v34, 19)
+		buffer.readu8(v34, 17)
+		buffer.readi16(v34, 22)
+		buffer.readu16(v34, 3)
+		buffer.readi32(v34, 12)
+		buffer.readu32(v34, 30)
+		buffer.readf32(v34, 9)
+		buffer.readf64(v34, 18)
+		buffer.writei8(nil, 10, -55)
+		buffer.writeu8(nil, 14, 94)
+		buffer.writei16(nil, 17, -28870)
+		buffer.writeu16(nil, 17, 48707)
+		buffer.writei32(nil, 27, -970389360)
+		buffer.writeu32(nil, 2, 196465727)
+		buffer.writef32(nil, 18, 18846)
+		buffer.writef64(nil, 10, 14870)
+		buffer.readstring(nil, 27, 30)
+		buffer.writestring(nil, 15, "Luraph", 5)
+		buffer.readbits(nil, 244, 26)
+		buffer.writebits(nil, 192, 29, 583468764)
+		buffer.copy(v34, 32, v34, 0, 16)
+		buffer.fill(nil, 21, 119, 1)
+		local v35 = v20.new()
+		v35:NextInteger(43, 153)
+		v35:NextNumber(38, 200)
+		v35.NextUnitVector(nil)
+		v35.NextNumber(nil)
+		v35.Shuffle(nil, {})
+		v35.Clone(nil)
+		local n11 = Vector3.new(0.69021267, 0.29909247, 0.52124655) + Vector3.new(0.36505842, 0.9133775, 0.23737417)
+		local vector_ = Vector3.new(0.69021267, 0.29909247, 0.52124655)
+		local vector_2 = Vector3.new(0.36505842, 0.9133775, 0.23737417)
+		local vector_3 = Vector3.new(1, 0, 0)
+		local vector_4 = Vector3.new(0, 1, 0)
+		local v36 = v19.new()
+		local v37 = v19.new(vector_)
+		v19.Angles(0.52117188222110533, 0.016122628349454327, 0.17778356077141366)
+		local xyz = Enum.RotationOrder.XYZ
+		v19.new(vector_, n11)
+		v19.new(nil, vector_.Y, vector_.Z)
+		v19.new(vector_.X, vector_.Y, vector_.Z, 0, 0, 0, 1)
+		v19.new(vector_.X, vector_.Y, vector_.Z, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		v19.lookAt(nil, n11, vector_4)
+		v19.lookAlong(nil, vector_2, vector_4)
+		v19.fromEulerAnglesXYZ(0.52117188222110533, 0.016122628349454327, 0.17778356077141366)
+		v19.fromEulerAnglesYXZ(0.52117188222110533, 0.016122628349454327, 0.17778356077141366)
+		v19.fromOrientation(0.52117188222110533, 0.016122628349454327, 0.17778356077141366)
+		v19.fromAxisAngle(nil, 0.52117188222110533)
+		v19.fromRotationBetweenVectors(vector_3, vector_4)
+		v19.fromMatrix(nil, vector_3, vector_4, Vector3.new(0, 0, 1))
+		v19.fromEulerAngles(0.52117188222110533, 0.016122628349454327, 0.17778356077141366, xyz)
+		v36.Inverse(nil)
+		v36.Orthonormalize(nil)
+		v36:Lerp(v37, 0.6774112802041854)
+		v36.ToWorldSpace(nil, v37)
+		v36.ToObjectSpace(nil, v37)
+		v36.ToEulerAnglesXYZ(nil)
+		v36.ToEulerAnglesYXZ(nil)
+		v36.PointToWorldSpace(nil, vector_)
+		v36.PointToObjectSpace(nil, vector_)
+		v36.VectorToWorldSpace(nil, vector_2)
+		v36.VectorToObjectSpace(nil, vector_2)
+		v36.ToEulerAngles(nil, xyz)
+		v36.GetComponents(nil)
+		v36.ToOrientation(nil)
+		v36.ToAxisAngle(nil)
+		v36.FuzzyEq(nil, v37)
+		v36.AngleBetween(nil, v37)
+		v18.FromAxis(nil)
+		local vector_5 = Vector3.new(0.24132921, 0.4896354, 0.1850317)
+		local vector_6 = Vector3.new(0.790666, 0.51942223, 0.9200189)
+		v18.FromNormalId(Enum.NormalId.Top)
+		vector_5.Abs(nil)
+		vector_5.Ceil(nil)
+		vector_5.Floor(nil)
+		vector_5.Sign(nil)
+-- ====== Luraph V15.1 Cracked By SL ====== [ https://discord.gg/zNyHGU6eUK ]
+		vector_5.Dot(nil, vector_6)
+		vector_5.Cross(nil, vector_6)
+		vector_5.Angle(nil, vector_6)
+		vector_5.FuzzyEq(nil, vector_6)
+		vector_5.Lerp(nil, vector_6, 0.70885446210412051)
+		vector_5.Max(nil, vector_6)
+
+		vector_5.Min(nil, vector_6)
+		;(Vector2.new(0.71189826726913452, 0.28613844513893127)).Abs(nil)
+		;(Vector2.new(0.71189826726913452, 0.28613844513893127)).Ceil(nil)
+		;(Vector2.new(0.71189826726913452, 0.28613844513893127)).Floor(nil)
+		local vector2 = Vector2.new(0.71189826726913452, 0.28613844513893127)
+		local vector22 = Vector2.new(0.19507652521133423, 0.15656469762325287)
+		vector2.Sign(nil)
+		vector2.Dot(nil, vector22)
+		vector2.Cross(nil, vector22)
+		vector2.Angle(nil, vector22)
+		vector2.FuzzyEq(nil, vector22)
+		vector2.Lerp(nil, vector22, 0.73751291827617)
+		vector2.Max(nil, vector22)
+		vector2.Min(nil, vector22)
+
+		local v38 = udim(nil, 94)
+		;(nil)(0.54395001041191327, 0)
+
+		local v39 = udim2(nil, 118, -0.4685794074745282, 40)
+		;(nil)(v39, udim2(nil, 118, 0.69056836063731697, -28), 0.40212291073535655)
+		local default = Enum.MouseBehavior.LockCenter.EnumType.Default
+		local enumType = default.EnumType
+		enumType.GetEnumItems(nil)
+		enumType.FromName(nil, default.Name)
+		enumType.FromValue(nil, default.Value)
+		local v40 = udim2(nil, 38, 0.21691419845125759, 43)
+		local v41 = udim2(nil, 20, 0.10796844191905305, 31)
+		local v42 = udim2(nil, 169, 0.59509475462296146, 148)
+		local v43 = new4(v40, v41, v41)
+		local v44 = new4(v40.Lerp(nil, v42, 0.47898966617691158))
+		local tbl5 = {}
+
+		local v45 = new4(v42)
+		;(nil)[1] = v43
+		;(nil)[2] = v45
+		Frame.Size = udim2(nil, 298, 0, 350)
+		Path2D.GetControlPoints(nil)
+		Path2D.SetControlPoints(nil, tbl5)
+		Path2D.GetControlPoint(nil, 1)
+		Path2D.GetLength(nil)
+		Path2D.GetBoundingRect(nil)
+		Path2D.GetMaxControlPoints(nil)
+		Path2D.GetPositionOnCurve(nil, 0.11314809528273184)
+		Path2D.GetPositionOnCurveArcLength(nil, 0.66035998495636283)
+		Path2D.GetTangentOnCurve(nil, 0.23602127567486642)
+		Path2D.GetTangentOnCurveArcLength(nil, 0.85162119881349685)
+		Path2D.UpdateControlPoint(nil, 1, tbl5[1])
+		Path2D.InsertControlPoint(nil, 3, v44)
+		Path2D.RemoveControlPoint(nil, 3)
+		local v46 = utf8.char(nil, 968, 993188)
+		utf8.codepoint(nil, 1, #v46)
+		utf8.len(v46)
+		utf8.offset(v46, 3)
+		utf8.offset(v46, -3)
+		local v47 = table.pack(utf8.codes(nil))
+		local v48 = v47[1]
+		v48(nil, v47[3])
+		v48(nil, utf8.offset(v46, 1))
+		local v49 = utf8.char(108, 849)
+		utf8.nfcnormalize(v49)
+		utf8.nfdnormalize(v46)
+		utf8.graphemes(nil, 1, #v49)()
+		n9 = 52056379
+		n10 = 28515836
+	end
+
+	local v34 = coroutine.wrap(fn12)
+	local tbl4 = {}
+	local n11 = 0
+	local n12 = 615047497
+
+	local function fn13()
+		local v35 = nil
+		local v36 = nil
+		n11 += 1
+		n9 = (408715 * n9 + 155064095) % 268435456
+		n10 = (1 * n10 + 150975216) % 268435456
+	end
+
+	setmetatable(tbl4, { __index = fn13, __newindex = fn13 })
+	local ok, result = pcall(fn13)
+
+	if tbl3[not ok] then
+		fn5(312917812, 64)
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	v29 = bit32.band(n8, 2843262466)
+
+-- SL | Luraph V15.1 Cracked & Released | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+	if tbl3[not result] then
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	else
+		fn5(v29 - 1991893196, 187)
+	end
+
+	local v35 = luraph_runtime1(table.pack(n9, n10), nil, nil)
+	local flag = false
+	local v36 = luraph_runtime3(table.pack(v32, v16), nil, nil)
+
+	local function fn14()
+		n9 = (692003 * n9 + 13986557) % 268435456
+		n10 = (1 * n10 + 263950832) % 268435456
+	end
+
+	local v37 = luraph_runtime4(table.pack(n10, n9), nil, nil)
+
+	local function fn15()
+		n10 = n10 - n10 % 2 + 1
+		n9 = (110079 * n9 + 245222889) % 268435456
+	end
+
+	local n13 = 0
+
+	fn2 = function()
+		n13 += 1
+		n9 = (672221 * n9 + 55932881) % 268435456
+		n10 = (1 * n10 + 259390918) % 268435456
+		fn2()
+	end
+
+	fn3 = function(arg)
+		if arg ~= 19998 then
+			if arg ~= 19997 then
+				if arg == 12910 then
+					(nil)(arg)
+				end
+			else
+				(nil)(arg)
+			end
+			;(nil)(arg + 1)
+
+			if arg == 19997 then
+				(nil)(v35, v37)
+
+				if not nil then
+					n10 = nil
+					n9 = nil
+					return
+				end
+				;(nil)()
+				;(nil)(v35)
+
+				if not nil then
+					n10 = nil
+					n9 = nil
+					return
+				end
+				;(nil)(fn15, fn2)
+
+				if nil then
+					n10 = nil
+					n9 = nil
+					n9 = nil
+					return
+				end
+				;(nil)()
+
+				if nil then
+					n10 = nil
+					n9 = nil
+					return
+				end
+
+				n10 = nil
+				n9 = nil
+			end
+
+			n9 = nil
+			n10 = nil
+			return
+		end
+		;(nil)()
+		n9 = nil
+		n10 = nil
+	end
+
+	coroutine.resume(coroutine.create(fn3), 1)
+	ScreenGui:Destroy()
+	fn6(n9, 4)
+	fn6(n10, 4)
+	v30 = n
+	local n14 = 1643637323
+	n4 = 942922432
+
+	local v38 = coroutine.wrap(function()
+		coroutine.yield(n14)
+-- *.*.* Luraph V15.1 Cracked By SL *.*.* [ https://discord.gg/zNyHGU6eUK ]
+		coroutine.yield(n4)
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end)
+
+	if fn9(v38(), n14) then
+		fn5(312917812, 96)
+		n = v30
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	if fn9(v38(), n4) then
+		fn5(312917812, 121)
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	v31 = bit32.bor(n12, 36443003)
+end
+
+do
+	local thread = coroutine.create(wait)
+	coroutine.resume(thread, 0)
+	local v32 = coroutine.status(thread)
+	fn9("suspended", v32)
+
+	if not nil then
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	pcall(coroutine.close, thread)
+end
+
+do
+	local v32 = nil
+	local flag = false
+
+	spawn(function()
+		v32 = coroutine.running()
+		wait(0)
+		flag = true
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end)
+
+	if flag then
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	else
+	end
+
+	local flag2 = not pcall(coroutine.close, v32)
+end
+
+if not nil then
+	fn6(428102605, 4)
+	n = 244379128
+	fn7()
+end
+
+do
+	local close = coroutine.close
+	local n5 = v31 + 3777711919
+
+	local function fn12()
+		coroutine.yield()
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	n5 = 104272579
+	local v32 = spawn(fn12)
+	close(v32)
+end
+
+local n5
+
+do
+	local close = coroutine.close
+	local v32 = defer(fn8)
+	n5 = n3 + v29
+	close(v32)
+end
+
+do
+	local close = coroutine.close
+	local v32 = delay(571, fn8)
+	close(v32)
+-- ----------- SL | Luraph V15.1 | Cracked ----------- [ https://discord.gg/zNyHGU6eUK ]
+end
+
+local function fn12(arg)
+	return (info(arg + 1, "f"))
+end
+
+fn = function(arg, ...)
+	if tbl3[nil] then
+		local ok, result = xpcall(arg, nil, ...)
+
+		if tbl3[not ok] then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		if fn9(result, "error in error handling") then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		return
+	end
+end
+
+fn(getmetatable)
+fn(setmetatable)
+fn(tonumber)
+fn(tostring)
+fn(rawset)
+fn(rawget)
+fn(assert)
+fn(type)
+fn(next)
+fn(typeof)
+fn(string.gmatch)
+fn(string.format)
+fn(string.match)
+fn(string.find)
+fn(string.byte)
+fn(string.gsub)
+fn(string.sub)
+fn(string.rep)
+fn(string.char, nil)
+local n6
+local v32 = bit32.band(v29, n5)
+fn(string.unpack)
+fn(string.pack)
+fn(table.concat)
+fn(table.insert)
+fn(table.clear)
+fn(table.create, nil)
+fn(table.move)
+fn(bit32.bor, nil)
+fn(bit32.bxor, nil)
+fn(bit32.band, nil)
+fn(bit32.bnot)
+fn(bit32.lshift)
+fn(bit32.rshift)
+fn(bit32.rrotate)
+fn(bit32.lrotate)
+fn(bit32.countlz)
+fn(bit32.countrz)
+fn(buffer.len)
+fn(buffer.fill)
+fn(buffer.copy)
+fn(buffer.create, nil)
+fn(buffer.tostring)
+n6 = v32 - 2818883530
+fn(buffer.fromstring)
+fn(buffer.readstring)
+fn(buffer.writestring)
+fn(buffer.readi8)
+fn(buffer.readu8)
+fn(buffer.readi16)
+fn(buffer.readu16)
+fn(buffer.readi32)
+fn(buffer.readu32)
+fn(buffer.readf32)
+fn(buffer.readf64)
+fn(buffer.writei8)
+fn(buffer.writeu8)
+fn(buffer.writei16)
+fn(buffer.writeu16)
+fn(buffer.writei32)
+fn(buffer.writeu32)
+fn(buffer.writef32)
+fn(buffer.writef64)
+fn(buffer.readbits)
+fn(buffer.writebits)
+fn(coroutine.create)
+fn(coroutine.status)
+fn(coroutine.close)
+fn(coroutine.resume)
+fn(coroutine.wrap)
+fn(cancel)
+fn(spawn)
+fn(defer)
+-- [ SL x Luraph V15.1 ] Cracked & Open | discord.gg/zNyHGU6eUK
+fn(delay)
+fn(wait, {})
+fn(unpack)
+fn(info)
+fn(v24)
+fn11(new, 276719723, "new")
+fn(new, nil)
+fn11(new2, 276719723, "new")
+fn11(new3, 276719723, "new")
+fn11(color, 276719723, "new")
+fn11(rect, 276719723, "new")
+local n7
+
+do
+	local fromAxis = v18.FromAxis
+	fn11(fromAxis, 276719723, "FromAxis")
+	local n8 = v31 // n5
+	fn(fromAxis, nil)
+	local v33 = fromAxis(Enum.Axis.X)
+	local v34 = v18.FromNormalId(Enum.NormalId.Right)
+	local kind = type(v33)
+	local kind2 = type(v34)
+	fn5(n6 - 1314169090, kind == "vector" and 142 or 173)
+	fn5(312917812, kind2 == "vector" and 130 or 88)
+	local x = v34.X
+	fn6(v33.X * 2121192702, 4)
+	fn6(x * 1 * 4273206570, 4)
+
+	if fn9("vector", kind) then
+		fn5(312917812, 182)
+		n = v30
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+		n6 = bit32.band(n6, n8) + 1627086902
+	end
+
+	if fn9("vector", kind2) then
+		fn5(312917812, 66)
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	fn5(n8 - 3982049484, v33.X == 1 and 69 or 237)
+	fn5(312917812, v33.Y == 0 and 159 or 128)
+	fn5(n6 + 2980798206, v33.Z == 0 and 44 or 17)
+	n7 = n8 // n5
+	fn5(312917812, v34.X == 1 and 87 or 191)
+	fn5(312917812, v34.Y == 0 and 65 or 143)
+	fn5(n6 - 1314169090, v34.Z == 0 and 145 or 210)
+end
+
+fn11(udim2, 276719723, "new")
+fn11(udim, 276719723, "new")
+v28(utf8, { [599432435] = 706665496, [3602178304] = 2142090676, [3169011399] = 1916515231 }, 293943798)
+local tbl4
+tbl4 = { utf8.nfcnormalize("쵟킚륒왹늵옼"):byte(nil, -1) }
+local tbl5
+tbl5 = { utf8.nfdnormalize("찧긪킀룤륷쨋걤꾃"):byte(nil, -1) }
+local v33, v34, v35, v36, v37, v38, v39, v40, v41, n8
+local v42 = tbl5[58]
+fn5(n7 - 3982049484, v42)
+v33 = tbl5[52]
+fn5(312917812, v33)
+v34 = tbl4[10]
+fn5(n6 - 1314169090, v34)
+v35 = tbl5[36]
+fn5(n7 + 312917812, v35)
+v36 = tbl5[48]
+fn5(312917812, v36)
+v37 = tbl5[63]
+fn5(312917812, v37)
+v38 = tbl5[10]
+fn5(312917812, v38)
+v39 = tbl5[68]
+fn5(312917812, v39)
+v40 = tbl4[13]
+fn5(312917812, v40)
+fn5(n7 + 312917812, tbl4[4])
+fn5(312917812, tbl5[61])
+v41 = tbl5[41]
+fn5(n6 + 2980798206, v41)
+n8 = n7 + v42
+local v43
+v43 = tbl4[16]
+fn5(n8 + 312917587, v43)
+local v44
+v44 = tbl5[50]
+fn5(312917812, v44)
+local v45
+v45 = tbl5[4]
+fn5(n6 - 1314169090, v45)
+local v46
+v46 = tbl5[27]
+fn5(312917812, v46)
+local n9, v47, v48, v49, v50
+-- [SL] Luraph V15.1 Cracked & Leaked | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+local v51 = tbl5[53]
+n9 = n6 + v33
+fn5(312917812, v51)
+v47 = tbl4[11]
+fn5(312917812, v47)
+v48 = tbl5[71]
+fn5(n8 - 3982049709, v48)
+v49 = tbl5[20]
+v50 = v51
+fn5(312917812, v49)
+local v52
+v52 = tbl4[3]
+fn5(n9 - 1314169315, v52)
+local v53
+v53 = tbl5[25]
+fn5(n8 - 3982049709, v53)
+fn5(312917812, tbl5[35])
+local v54
+v54 = tbl5[42]
+fn5(312917812, v54)
+local v55
+v55 = tbl5[69]
+fn5(n8 - 3982049709, v55)
+local v56
+v56 = tbl5[13]
+fn5(312917812, v56)
+local v57
+v57 = tbl4[15]
+fn5(n9 + 2980797981, v57)
+local v58
+v58 = tbl5[55]
+fn5(n8 - 3982049709, v58)
+local v59
+v59 = tbl4[14]
+fn5(312917812, v59)
+local v60
+v60 = tbl5[26]
+fn5(n9 - 1314169315, v60)
+local v61
+v61 = tbl5[18]
+fn5(n8 - 3982049709, v61)
+fn5(312917812, tbl4[17])
+local v62
+v62 = tbl5[21]
+fn5(n9 + 2980797981, v62)
+local v63
+v63 = tbl5[66]
+fn5(n8 - 3982049709, v63)
+local v64
+v64 = tbl5[33]
+fn5(312917812, v64)
+fn5(312917812, tbl5[31])
+fn5(n8 + 312917587, tbl5[46])
+fn5(312917812, tbl5[1])
+local n10
+
+do
+	local v65 = tbl5[34]
+	n10 = n8 + v34
+	fn5(312917812, v65)
+	fn5(312917812, tbl5[60])
+	fn5(312917812, tbl5[67])
+	fn5(312917812, tbl5[37])
+	fn5(312917812, tbl5[47])
+	local v66 = v65
+end
+
+local n11
+n11 = n9 - v35
+fn5(312917812, tbl5[40])
+fn5(312917812, tbl4[7])
+fn5(312917812, tbl5[32])
+fn5(312917812, tbl5[14])
+fn5(312917812, tbl5[54])
+fn5(312917812, tbl5[2])
+fn5(312917812, tbl5[43])
+fn5(312917812, tbl5[56])
+fn5(312917812, tbl5[51])
+fn5(312917812, tbl5[12])
+fn5(312917812, tbl5[45])
+fn5(312917812, tbl4[9])
+
+do
+	local v65 = tbl5[5]
+	fn5(312917812, v65)
+	fn5(312917812, tbl4[2])
+	fn5(312917812, tbl5[7])
+	fn5(312917812, tbl4[1])
+	fn5(312917812, tbl5[28])
+	local v66 = bit32.bor(n10, v37)
+	local v67 = v65
+end
+
+fn5(312917812, tbl5[44])
+fn5(312917812, tbl5[22])
+fn5(312917812, tbl5[30])
+fn5(312917812, tbl4[18])
+fn5(312917812, tbl5[49])
+fn5(312917812, tbl5[24])
+-- [SL] Luraph V15.1 Cracked & Leaked | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+fn5(312917812, tbl5[3])
+fn5(312917812, tbl5[72])
+fn5(312917812, tbl5[17])
+fn5(312917812, tbl5[57])
+fn5(312917812, tbl5[8])
+fn5(312917812, tbl5[62])
+fn5(312917812, tbl5[23])
+fn5(312917812, tbl5[15])
+local n12, v65
+
+do
+	local v66 = tbl5[16]
+	fn5(312917812, v66)
+	bit32.band(n11, v38)
+	fn5(312917812, tbl5[70])
+	local v67 = tbl4[8]
+	fn5(312917812, v67)
+	n12 = n5 + v36 + v39
+	local v68 = v66
+	v65 = v67
+end
+
+fn5(312917812, tbl5[29])
+fn5(312917812, tbl4[6])
+fn5(312917812, tbl5[59])
+fn5(312917812, tbl4[5])
+fn5(312917812, tbl5[19])
+fn5(312917812, tbl5[65])
+fn5(312917812, tbl5[64])
+fn5(312917812, tbl5[39])
+fn5(312917812, tbl5[6])
+fn5(312917812, tbl5[11])
+fn5(312917812, tbl5[38])
+fn5(312917812, tbl5[9])
+fn5(312917812, tbl4[12])
+fn11(new4, 276719723, "new")
+fn(new4, nil)
+local ScreenGui
+ScreenGui = new("ScreenGui")
+local v66
+
+do
+	local Frame = new("Frame")
+	Frame.Position = udim2(0, 0, 0, nil)
+	Frame.Size = udim2(0, 154, 0, nil)
+	Frame.Parent = ScreenGui
+	local Path2D = new("Path2D")
+	Path2D.Parent = Frame
+	v66 = Path2D
+end
+
+local str, v67
+
+do
+	local setControlPoints = v66.SetControlPoints
+	local tbl6 = {}
+	local v68 = udim2(0.375, -3, 0, -8)
+	udim2(0, 4, 0.125, -2)
+	local v69 = new4(v68, nil, udim2(-0.125, 3, 0, 1))
+	local v70 = new4(udim2(0, 5, 0, 5), udim2(0, 0, 0, 0), udim2(0, -1, 0, 6))
+	local v71 = new4(udim2(0.5, -1, 0.25, 4), udim2(0, 0, 0, 0), udim2(0, 0, 0, 0))
+	local v72 = new4(udim2(0.25, -8, 0.375, -1), udim2(0.125, -2, -0.125, -8), udim2(0, 5, 0.125, -6))
+	local v73 = new4(udim2(0.5, 2, 0, 8), udim2(0, -2, 0, 7), udim2(-0.0625, 7, 0, -7))
+	local v74 = table.pack(new4(udim2(0, 0, 0, 8), udim2(-0.125, 1, -0.0625, 7), udim2(0, -5, 0, -8)))
+	str = tbl6
+	v67 = v69
+	str[1] = v67
+	str[2] = v70
+	str[3] = v71
+	str[4] = v72
+	str[5] = v73
+
+	do
+		local values = table.pack(table.unpack(v74, 1, v74.n))
+		table.move(values, 1, values.n, 6, str)
+	end
+
+	setControlPoints(v66, tbl6)
+end
+
+do
+	local length = v66:GetLength()
+	local pack = string.pack
+	bit32.band(length - length % 1, 536870911)
+	fn6((nil)(">I4", pack(">f", length)), 4)
+end
+
+do
+	local positionOnCurve = v66:GetPositionOnCurve(nil)
+	local pack = string.pack
+	local scale = positionOnCurve.X.Scale
+	bit32.band(scale - scale % 1, 536870911)
+	fn6((nil)("<I4", pack(">f", scale)), 4)
+	local unpack_ = string.unpack
+	local pack2 = string.pack
+	local scale2 = positionOnCurve.Y.Scale
+	bit32.band(scale2 - scale2 % 1, 536870911)
+	fn6(unpack_("<I4", pack2("<f", scale2)), 4)
+end
+-- This Luraph V15.1 Cracked By SL | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+
+do
+	local positionOnCurve = v66:GetPositionOnCurve(0.30000001192092896)
+	local unpack_ = string.unpack
+	local pack = string.pack
+	local scale = positionOnCurve.X.Scale
+	bit32.band(scale - scale % 1, 536870911)
+	fn6(unpack_(">I4", pack(">f", scale)), 4)
+	local unpack_2 = string.unpack
+	local pack2 = string.pack
+	local scale2 = positionOnCurve.Y.Scale
+	bit32.band(scale2 - scale2 % 1, 536870911)
+	fn6(unpack_2(">I4", pack2("<f", scale2)), 4)
+end
+
+do
+	local positionOnCurve = v66:GetPositionOnCurve(0.92307692766189575)
+	local unpack_ = string.unpack
+	local pack = string.pack
+	local scale = positionOnCurve.X.Scale
+	bit32.band(scale - scale % 1, 536870911)
+	fn6(unpack_("<I4", pack(">f", scale)), 4)
+	local unpack_2 = string.unpack
+	local pack2 = string.pack
+	local y = positionOnCurve.Y
+	bit32.band(286, v41)
+	local scale2 = y.Scale
+	bit32.band(scale2 - scale2 % 1, 536870911)
+	fn6(unpack_2("<I4", pack2(">f", scale2)), 4)
+end
+
+local str2
+
+do
+	local tangentOnCurve = v66:GetTangentOnCurve(nil)
+	local unpack_ = string.unpack
+	local pack = string.pack
+	local x = tangentOnCurve.X
+	bit32.band(x - x % 1, 536870911)
+	fn6(unpack_(">I4", pack("<f", x)), 4)
+	local unpack_2 = string.unpack
+	local pack2 = string.pack
+	str2 = "<f"
+	local y = tangentOnCurve.Y
+	bit32.band(y - y % 1, 536870911)
+	fn6(unpack_2("<I4", pack2(str2, y)), 4)
+end
+
+local x
+
+do
+	local tangentOnCurve = v66:GetTangentOnCurve(0.1428571492433548)
+	local unpack_ = string.unpack
+	local pack = string.pack
+	x = tangentOnCurve.X
+	bit32.band(x - x % 1, 536870911)
+	fn6(unpack_(">I4", pack(">f", x)), 4)
+	local pack2 = string.pack
+	local y = tangentOnCurve.Y
+	bit32.band(y - y % 1, 536870911)
+	fn6((nil)(">I4", pack2("<f", y)), 4)
+end
+
+do
+	local positionOnCurveArcLength = v66:GetPositionOnCurveArcLength(0.57142859697341919)
+	local unpack_ = string.unpack
+	local pack = string.pack
+	local scale = positionOnCurveArcLength.X.Scale
+	bit32.band(scale - scale % 1, 536870911)
+	fn6(unpack_("<I4", pack(">f", scale)), 4)
+	local unpack_2 = string.unpack
+	local pack2 = string.pack
+	local scale2 = positionOnCurveArcLength.Y.Scale
+	bit32.band(scale2 - scale2 % 1, 536870911)
+	fn6(unpack_2(">I4", pack2("<f", scale2)), 4)
+end
+
+local v68
+
+do
+	local positionOnCurveArcLength = v66:GetPositionOnCurveArcLength(0.92857140302658081)
+	local unpack_ = string.unpack
+	local pack = string.pack
+	local scale = positionOnCurveArcLength.X.Scale
+	bit32.band(scale - scale % 1, 536870911)
+	fn6(unpack_(">I4", pack(">f", scale)), 4)
+	local pack2 = string.pack
+	local scale2 = positionOnCurveArcLength.Y.Scale
+	bit32.band(scale2 - scale2 % 1, 536870911)
+	v68 = v43
+	fn6((nil)("<I4", pack2(">f", scale2)), 4)
+end
+
+local n13
+
+do
+	local tangentOnCurveArcLength = v66:GetTangentOnCurveArcLength(0.71428573131561279)
+	local unpack_ = string.unpack
+	local pack = string.pack
+-- SL | Luraph V15.1 Cracked & Released | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+	local x2 = tangentOnCurveArcLength.X
+	bit32.band(x2 - x2 % 1, 536870911)
+	fn6(unpack_(">I4", pack(">f", x2)), 4)
+	local unpack_2 = string.unpack
+	local pack2 = string.pack
+	n13 = v45
+	local y = tangentOnCurveArcLength.Y
+	bit32.band(y - y % 1, 536870911)
+	fn6(unpack_2("<I4", pack2("<f", y)), 4)
+end
+
+do
+	local tangentOnCurveArcLength = v66:GetTangentOnCurveArcLength(0.72727274894714355)
+	local unpack_ = string.unpack
+	local pack = string.pack
+	local x2 = tangentOnCurveArcLength.X
+	bit32.band(x2 - x2 % 1, 536870911)
+	fn6(unpack_(">I4", pack(">f", x2)), 4)
+	local pack2 = string.pack
+	local y = tangentOnCurveArcLength.Y
+	bit32.band(y - y % 1, 536870911)
+	fn6((nil)("<I4", pack2("<f", y)), 4)
+end
+
+local n14, v69, fn13, v70, Folder, n15, v71, n16, v72, n17
+local clone
+
+do
+	local n18
+
+	do
+		local tangentOnCurveArcLength = v66:GetTangentOnCurveArcLength(0.66666668653488159)
+		local unpack_ = string.unpack
+		local pack = string.pack
+		local x2 = tangentOnCurveArcLength.X
+		bit32.band(x2 - x2 % 1, 536870911)
+		n18 = n12 + v40 + v44 + v46
+		fn6(unpack_("<I4", pack("<f", x2)), 4)
+		local pack2 = string.pack
+		local y = tangentOnCurveArcLength.Y
+		bit32.band(y - y % 1, 536870911)
+		fn6((nil)("<I4", pack2("<f", y)), 4)
+	end
+
+	ScreenGui:Destroy()
+	v28(math, { [2407072644] = 120627581, [416833176] = 581425429, [409391670] = 1267301901 }, 293943798)
+
+	v28(v26, {
+		[24598278] = 1518303105,
+		[900440026] = 1098563823,
+		[2868457385] = 1780700161,
+		[2875953341] = 597669248,
+		[1581702021] = 1578336087,
+	}, 293943798)
+
+	n14 = v68 * v50
+	v28(v17, { [1089318355] = 381995513, [4053941702] = 362394728 }, 293943798)
+	v69 = game
+
+	fn13 = function(arg, arg2, arg3)
+		local kind = type(arg)
+		fn9("userdata", kind)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local kind2 = typeof(arg)
+		fn9("Instance", kind2)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local parent = arg.Parent
+		local parent2 = arg.Parent
+
+		if tbl3[not parent] then
+			fn9(parent, parent2)
+
+			if not nil then
+				fn6(428102605, 4)
+				n = 244379128
+				fn7()
+			end
+		end
+
+		local name = arg.Name
+		local name2 = arg.Name
+		local n19 = nil // arg3
+		local kind3 = type(name)
+		fn9("string", kind3)
+
+		if not nil then
+			fn6(428102605, 4)
+-- [ SL x Luraph V15.1 ] Cracked & Open | discord.gg/zNyHGU6eUK
+			n = 244379128
+			fn7()
+		end
+
+		fn9(name, name2)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(#name, #name2)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(tostring(arg), name)
+		local n20
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+			n20 = nil // arg3 - 2190186778
+		end
+
+		fn9(arg2, arg.ClassName)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local attributeChanged = arg.AttributeChanged
+		local attributeChanged2 = arg.AttributeChanged
+		local v73 = fn9
+		fn9(attributeChanged, attributeChanged2)
+
+		if nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local n21 = 5896857
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local connect = attributeChanged.Connect
+		local connect2 = attributeChanged.Connect
+		fn11(connect, n20 - 1828061151, "Connect")
+		fn11(connect2, 276719723, "Connect")
+		fn9(connect, connect2)
+
+		if nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+			n21 = 5896857
+		end
+
+		local flag = false
+		local changed = arg.Changed
+		local v74 = table.pack(bit32.band(n20, 4294967295))
+		local v75 = table.pack(bit32.band(n19, 4294967295))
+		local v76 = table.pack(bit32.band(v74[1], 65535))
+		local v77 = table.pack(bit32.rshift(v74[1], 16))
+		local v78 = table.pack(bit32.band(v75[1], 65535))
+		local v79 = bit32.band(v76[1] * v78[1] + bit32.lshift(bit32.band(v76[1] * bit32.rshift(v75[1], 16) + v77[1] * v78[1], 65535), 16), 4294967295)
+		local v80 = changed
+		local connect3 = changed.Connect
+		local n22 = 290513419
+
+		local function fn14()
+			flag = true
+		end
+
+		n22 = 103005918
+		local v81 = connect3(v80, fn14)
+
+		if nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		else
+		end
+
+		local connected = v81.Connected
+		local v82 = bit32.band(n19, n21)
+
+-- ----------- SL | Luraph V15.1 | Cracked ----------- [ https://discord.gg/zNyHGU6eUK ]
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local disconnect = v81.Disconnect
+		fn11(disconnect, v82 + 276719202, "Disconnect")
+		fn(disconnect, nil)
+		disconnect(v81)
+
+		if nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local wait2 = attributeChanged.Wait
+		fn11(wait2, 276719723, "Wait")
+		local n23 = v82 + 411549044
+
+		local function fn15()
+			return (wait2(attributeChanged))
+		end
+
+		n23 = 158667917
+		coroutine.create(fn15)
+		error("SL: unknown reference b'new' (at 166:594)")
+	end
+
+	fn13(v69, "DataModel", 5896432)
+	fn13(nil, "Workspace", 5896432)
+
+	if fn9(v69, (nil).Parent) then
+		fn5(312917812, 141)
+		n = v30
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	do
+		local Folder2 = new("Folder")
+		fn13(Folder2, "Folder", 5896432)
+		local ok, result = pcall(Folder2.Destroy, Rect.new(-220.55328369140625, -484.95684814453125, 872.758056640625, 466.850341796875), 582159702)
+		local flag = not ok
+
+		if not tbl3[flag] then
+			fn6(fn10(result, 516226591), 4)
+		end
+
+		local v73 = n
+
+		if tbl3[flag] then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		else
+			fn5(312917812, 15)
+			n = v73
+		end
+
+		local v74 = table.pack(Folder2.GetChildren(nil))
+		local v75 = table.pack(p_1())
+
+		if v75[1] then
+			repeat
+				fn6(428102605, 4)
+				n = 244379128
+				fn7()
+				local v76 = table.pack(p_1())
+			until not v76[1]
+		end
+
+		Folder2:Destroy()
+		v70 = Folder2
+	end
+
+	Folder = new("Folder", v70)
+	fn13(Folder, "Folder", 5896432)
+	local n19
+
+	do
+		local v73
+
+		if fn9(v70, Folder.Parent) then
+			v73 = nil
+			fn5(312917812, 203)
+			n = v73
+		else
+			v73 = nil
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+			n14 = n14 // v47 + 31418
+		end
+
+		if fn9(Folder.Parent, Folder.Parent) then
+-- ~~ Luraph V15.1 | Cracked By SL ~~ https://discord.gg/zNyHGU6eUK ~~
+			fn5(312917812, 47)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local waitForChild = v70.WaitForChild
+		fn11(waitForChild, 276719723, "WaitForChild")
+		fn(waitForChild, nil)
+		tostring(94244550)
+		Folder.Name = nil
+		local v74 = waitForChild(v70, nil)
+
+		if fn9(Folder, v74) then
+			fn5(312917812, 186)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		v70:Destroy()
+		Folder:Destroy()
+
+		if tbl3[not Folder.Parent] then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+			n13 = n13 - v48 + 134
+		else
+			fn5(312917812, 67)
+		end
+
+		local v75 = tbl3[not pcall(function()
+			Folder.Parent = v70
+		end)]
+
+		local v76 = table.pack(bit32.band(v49, 4294967295))
+		local v77 = table.pack(bit32.band(v76[1], 65535))
+		local n20 = n18 + bit32.band(1 * v77[1] + bit32.lshift(bit32.band(1 * bit32.rshift(v76[1], 16) + 32768 * v77[1], 65535), 16), 4294967295)
+		local v78 = table.pack(bit32.band(nil, 4294967295))
+		local v79 = table.pack(bit32.band(v78[1], 65535))
+		local v80 = bit32.band(0 * v79[1] + bit32.lshift(bit32.band(0 * bit32.rshift(v78[1], 16) + 32768 * v79[1], 65535), 16), 4294967295)
+		local v81 = table.pack(bit32.band(bit32.bxor(132, nil), 4294967295))
+		local v82 = table.pack(bit32.band(v81[1], 65535))
+		n19 = n20 + v80 + bit32.band(0 * v82[1] + bit32.lshift(bit32.band(0 * bit32.rshift(v81[1], 16) + 32768 * v82[1], 65535), 16), 4294967295)
+
+		if v75 then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		else
+			fn5(312917812, 51)
+		end
+
+		n = v73
+	end
+
+	do
+		local service = v69:GetService(nil)
+		fn13(service, "HttpService", 5896432)
+		local parent = service.Parent
+		n15 = bit32.band(n13, v52)
+		local v73 = n
+		local v74
+
+		if fn9(v69, parent) then
+			fn5(312917812, 168)
+			n = v73
+			v74 = v73
+		else
+			v74 = v73
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local service2 = v69:GetService(nil)
+		fn13(service2, "RunService", 5896432)
+
+		if fn9(v69, service2.Parent) then
+			fn5(312917812, 25)
+			n = v74
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn11(service2.IsStudio, 276719723, "IsStudio")
+		fn11(service2.IsClient, 276719723, "IsClient")
+		fn11(service2.IsServer, 276719723, "IsServer")
+		fn(service2.IsStudio)
+		fn(service2.IsClient)
+		fn(service2.IsServer)
+		service2:IsServer()
+
+		if nil then
+-- *.*.* Luraph V15.1 Cracked By SL *.*.* [ https://discord.gg/zNyHGU6eUK ]
+			local service3 = v69:GetService(nil)
+			fn13(service3, "StarterPlayer", 5896432)
+			fn9(v69, service3.Parent)
+
+			if not nil then
+				fn6(428102605, 4)
+				n = 244379128
+				fn7()
+			end
+
+			local children
+			children, str, v67 = service3:GetChildren()
+			local n20 = 0
+			local v75 = table.pack(p_1())
+
+			if v75[1] then
+				repeat
+					n20 += 1
+					local v76 = table.pack(p_1())
+				until not v76[1]
+			end
+
+			if nil then
+				fn6(428102605, 4)
+				n = 244379128
+				fn7()
+			end
+		end
+
+		if tbl3[not pcall(v69.GetChildren)] then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		else
+			fn5(312917812, 79)
+			n = v74
+		end
+	end
+
+	local outerBox, n20
+
+	do
+		local v73 = Enum
+		local n21 = n14 // v53
+		local v74 = n
+
+		if fn9(type(v73), "userdata") then
+			fn5(312917812, 229)
+			n = v74
+			v71 = v74
+		else
+			v71 = v74
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+			n15 = -4294967167
+		end
+
+		local n22 = n19 + v54
+
+		if fn9(typeof(v73), "Enums") then
+			fn5(312917812, 165)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local v75 = getmetatable(v73)
+
+		if fn9("The metatable is locked", v75) then
+			fn5(312917812, 74)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		outerBox = v73.HumanoidCollisionType.OuterBox
+
+		if fn9(type(outerBox), "userdata") then
+			fn5(312917812, 48)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		if fn9(typeof(outerBox), "EnumItem") then
+			fn5(312917812, 91)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local v76 = getmetatable(outerBox)
+
+		if fn9("The metatable is locked", v76) then
+-- ====== Luraph V15.1 Cracked By SL ====== [ https://discord.gg/zNyHGU6eUK ]
+			fn5(312917812, 74)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn11(outerBox.IsA, 276719723, "IsA")
+		local n23 = n21 - v55
+		fn(outerBox.IsA)
+		local name = outerBox.Name
+		local value = outerBox.Value
+
+		if fn9(type(name), "string") then
+			fn5(312917812, 114)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		if fn9(type(value), "number") then
+			fn5(312917812, 227)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local enumType = outerBox.EnumType
+
+		if fn9(outerBox, enumType[name]) then
+			fn5(312917812, 173)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local v77 = type
+		local n24 = n22 + v56
+		local v78 = table.pack(bit32.band(n23, 4294967295))
+		local v79 = table.pack(bit32.band(v57, 4294967295))
+		local v80 = table.pack(bit32.band(v78[1], 65535))
+		local v81 = table.pack(bit32.rshift(v78[1], 16))
+		local v82 = table.pack(bit32.band(v79[1], 65535))
+		n16 = bit32.band(v80[1] * v82[1] + bit32.lshift(bit32.band(v80[1] * bit32.rshift(v79[1], 16) + v81[1] * v82[1], 65535), 16), 4294967295)
+
+		if fn9(v77(enumType), "userdata") then
+			fn5(312917812, 132)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		if fn9(typeof(enumType), "Enum") then
+			fn5(312917812, 49)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local v83 = getmetatable(enumType)
+
+		if fn9("The metatable is locked", v83) then
+			fn5(312917812, 133)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn11(enumType.FromName, 276719723, "FromName")
+		n20 = n24 + v58
+		fn11(enumType.FromValue, 276719723, "FromValue")
+		fn(enumType.FromName)
+		fn(enumType.FromValue)
+		local v84 = enumType:FromName(nil)
+
+		if fn9(outerBox, v84) then
+			fn5(312917812, 247)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local v85 = enumType:FromValue(nil)
+
+		if fn9(outerBox, v85) then
+			fn5(312917812, 137)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+	end
+-- ====== Luraph V15.1 Cracked By SL ====== [ https://discord.gg/zNyHGU6eUK ]
+
+	local v73
+
+	do
+		local new5 = v20.new
+		fn11(new5, 276719723, "new")
+		fn(new5, {})
+		local v74 = new5(128320886)
+		local kind = type(v74)
+		bit32.bor(n15, v59)
+
+		if fn9(kind, "userdata") then
+			fn5(312917812, 38)
+			n = v71
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		if fn9(typeof(v74), "Random") then
+			fn5(312917812, 29)
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn11(v74.NextUnitVector, 276719723, "NextUnitVector")
+		v72 = v60
+		fn11(v74.NextInteger, 276719723, "NextInteger")
+		fn11(v74.NextNumber, 276719723, "NextNumber")
+		fn11(v74.Shuffle, 276719723, "Shuffle")
+		fn11(v74.Clone, 276719723, "Clone")
+		v73 = new5(833870104)
+	end
+
+	do
+		local unpack_ = string.unpack
+		local pack = string.pack
+		local v74 = v73:NextNumber()
+		bit32.band(v74 - v74 % 1, 536870911)
+		fn6(unpack_("<I4", pack("<f", v74)), 4)
+	end
+
+	fn6(v73:NextInteger(955, 1110), 4)
+
+	do
+		local unpack_ = string.unpack
+		local pack = string.pack
+		local v74 = v73:NextNumber()
+		n17 = n20 + v61
+		bit32.band(v74 - v74 % 1, 536870911)
+		fn6(unpack_("<I4", pack(">f", v74)), 4)
+	end
+
+	do
+		local unpack_ = string.unpack
+		local pack = string.pack
+		local v74 = v73:NextNumber()
+		bit32.band(v74 - v74 % 1, 536870911)
+		fn6(unpack_("<I4", pack(">f", v74)), 4)
+	end
+
+	fn6(v73:NextInteger(nil, 1492), 4)
+	clone = v73:Clone()
+	fn6(v73:NextInteger(126, 313), 4)
+end
+
+fn6(clone:NextInteger(920, 1420), 4)
+fn6(clone:NextInteger(nil, 823), 4)
+
+do
+	local unpack_ = string.unpack
+	local pack = string.pack
+	local v73 = clone:NextNumber()
+	bit32.band(v73 - v73 % 1, 536870911)
+	fn6(unpack_(">I4", pack(">f", v73)), 4)
+end
+
+do
+	local unpack_ = string.unpack
+	local pack = string.pack
+	local v73 = clone:NextNumber()
+	bit32.band(v73 - v73 % 1, 536870911)
+	fn6(unpack_("<I4", pack("<f", v73)), 4)
+end
+
+do
+	local ok, result = pcall(nil, false)
+	local flag = ok or not result
+
+	if not flag then
+		flag = type(result) ~= "string"
+		n16 = 4294961504
+	end
+
+	if flag then
+		fn6(428102605, 4)
+-- *.*.* Luraph V15.1 Cracked By SL *.*.* [ https://discord.gg/zNyHGU6eUK ]
+		n = 244379128
+		fn7()
+	end
+end
+
+do
+	local v73 = pcall
+	bit32.band(v72, v62)
+	local v74, v75 = v73(function(J,...)(...)[...]=nil;end)
+	local ok, result = pcall(function(J,...)return(...)[...];end)
+	local ok2, result2 = pcall(nil)
+
+	if v74 or ok or ok2 then
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	local function fn14(arg, arg2, arg3)
+		local v76 = nil
+		local v77 = table.pack(string.find(nil, "%:([0-9]+)[^%u%U]?[\r\n%:]"))
+		local v78 = v77[1]
+		local v79 = nil
+		local n18 = v77[3]
+		local flag = not v78
+		local flag2
+
+		if v78 then
+			flag2 = not v79
+		else
+			flag2 = flag
+		end
+
+		if flag2 then
+			fn6(428102605, 4)
+			n = 244379128
+			local v80 = fn7
+			local v81 = bit32.lshift(nil, 11)
+			v80()
+			local n19 = 3405978729
+		end
+
+		fn6(v78, 2)
+		fn6(v79, 2)
+		local v80 = string.match(nil, ":[^%w%W]-([0-9]+)[\n:\r]")
+		local v81 = fn6
+		local v82
+
+		if n18 then
+			v82 = v80
+		else
+			v82 = v80
+			n18 = 0
+		end
+
+		v81(n18 + 0, 2)
+		fn6((v82 or 0) + 0, 2)
+		local v83 = string.gmatch(nil, ":(%d%d*)[^%a%A]?[\r\n%:][^%d%D]*")
+		local n19 = v83()
+		v83()
+		fn9(nil, nil)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local v84 = fn6
+		local v85
+
+		if n19 then
+			v85 = v84
+		else
+			v85 = v84
+			n19 = 0
+		end
+
+		v85(n19 + 0, 2)
+		local v86 = arg3
+		local str3 = string.sub(arg, v78 + 1, v79 - 1)
+		local v87 = string.char(string.byte(arg, v78 + 1, v79 - 1))
+		local v88 = string.byte(arg, v78 + 1, v78 + 1)
+		fn6(str3 + 0, 2)
+		fn6(v87 + 0, 2)
+		fn5(312917812, v88)
+		local tbl6 = { 1, nil, v76, v78 + 1 - 1, v79 - 1 + 0 }
+		local n20 = 0
+		local n21 = 0
+		local v89 = tbl6
+
+		while true do
+			local v90 = v89[1]
+			local v91 = v89[5]
+			local n22 = v89[4] + v90
+			local flag3 = v90 <= 0
+			v89[4] = n22
+
+			if n22 <= v91 then
+-- [ SL x Luraph V15.1 ] Cracked & Open | discord.gg/zNyHGU6eUK
+				n20 = n20 * 10 + string.byte(arg, n22, n22) - 48
+			else
+				break
+			end
+		end
+
+		fn6(n20, 2)
+		local v90 = nil
+		local n22 = 0
+		local n23 = 178565081
+
+		local function fn15(arg4)
+			v90 = arg4
+			n22 += 1
+		end
+
+		n23 = 485533571
+		local v91, v92 = string.gsub(arg, "%:[^%x%X]?([0-9]+)[\n:\r][^%l%L]?", fn15, 1)
+		fn9(nil, 1)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(nil, 1)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn6((v90 or 0) + 0, 2)
+		string.sub(arg, 2, 2)
+		fn9(nil, arg2)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+			local flag3 = type(n21) ~= "vector"
+		end
+
+		local v93 = fn5
+		local v94 = string.byte(arg, 2, 2)
+		v93(312917812, v94)
+	end
+
+	fn14(":35: attempt to index string with thread", "3", 196094511)
+	fn14("zcCFSbIDcqru:185: attempt to perform arithmetic (mod) on number and boolean", "c", 196094511)
+	fn14("JOMOvgzmIs.lua:5: attempt to get length of a string value", "O", 196094511)
+	fn14("input.lua:183: attempt to get length of a boolean value", "n", 196094511)
+
+	fn4 = function()
+		local v76 = string.match(nil, "%:(%d%d*)[^%p%P]-[\n\r:][^%c%C]?")
+		local v77 = string.gmatch(nil, "[%:](%d+)[\r\n%:][^%u%U]-")()
+		local v78, v79 = string.find(nil, "[:][^%p%P]?(%d+)[\r%:\n]")
+		local flag = not v78
+		local flag2
+
+		if v78 then
+			flag2 = not v79
+		else
+			flag2 = flag
+		end
+
+		if flag2 then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local str3 = string.sub(nil, v78 + 1, v79 - 1)
+		local v80 = string.char(string.byte(nil, v78 + 1, v79 - 1))
+		local v81 = nil
+		local n18 = 0
+		local v82 = str3
+		local n19 = nil + 1255251895
+		local fn15
+
+		fn15 = function(arg)
+			local exitTo = nil
+			local v83
+
+			while true do
+				if fn9(info(1, "f"), fn15) then
+					exitTo = 1
+					break
+				else
+					v83 = nil
+					local exitTo2 = nil
+
+					while true do
+						fn6(428102605, 4)
+						n = 244379128
+						fn7()
+
+-- ~~ Luraph V15.1 | Cracked By SL ~~ https://discord.gg/zNyHGU6eUK ~~
+						if v83 then
+							exitTo2 = 1
+							break
+						else
+							if nil then
+								if nil <= 4 then
+									if nil <= 1 then
+										if nil <= 0 then
+											exitTo2 = 5
+											break
+										end
+										continue
+									end
+
+									exitTo2 = 4
+									break
+								end
+
+								exitTo2 = 3
+								break
+							end
+
+							exitTo2 = 2
+							break
+						end
+					end
+
+					if exitTo2 == 1 then
+						exitTo = 1
+						break
+					elseif exitTo2 == 2 then
+						exitTo = 2
+						break
+					elseif exitTo2 == 3 then
+						if not (nil <= 6) then
+							if nil <= 7 then
+								exitTo = 3
+								break
+							elseif nil <= 8 then
+								continue
+							else
+								exitTo = 1
+								break
+							end
+						end
+					else
+						if exitTo2 == 4 then
+							exitTo = 4
+						elseif exitTo2 == 5 then
+							exitTo = 3
+						end
+
+						break
+					end
+
+					break
+				end
+			end
+
+			if exitTo == 1 then
+				local gsub = string.gsub
+				fn9(info(2, "f"), gsub)
+
+				if nil then
+					v83 = fn9(info(3, "f"), fn4)
+
+					if not v83 then
+						fn6(428102605, 4)
+						n = 244379128
+						fn7()
+					end
+				else
+					fn6(428102605, 4)
+					n = 244379128
+					fn7()
+					v83 = fn9(info(3, "f"), fn4)
+
+					if not v83 then
+						fn6(428102605, 4)
+						n = 244379128
+						fn7()
+						v81 = arg
+						n18 += 1
+						return
+					end
+				end
+
+				v81 = arg
+				n18 += 1
+			elseif exitTo == 2 then
+				n19 = 3784562090
+
+				if not v83 then
+					fn6(428102605, 4)
+					n = 244379128
+					fn7()
+					v81 = arg
+					n18 += 1
+					return
+-- [SL] Luraph V15.1 Cracked & Leaked | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+				end
+
+				v81 = arg
+				n18 += 1
+				return
+			elseif exitTo == 3 then
+				fn6(428102605, 4)
+				n = 244379128
+				fn7()
+				v81 = arg
+				n18 += 1
+				return
+			elseif exitTo == 4 then
+				if nil <= 2 then
+					n19 = 3784562090
+
+					if not v83 then
+						fn6(428102605, 4)
+						n = 244379128
+						fn7()
+						v81 = arg
+						n18 += 1
+						return
+					end
+
+					v81 = arg
+					n18 += 1
+					return
+				elseif nil <= 3 then
+					fn6(428102605, 4)
+					n = 244379128
+					fn7()
+					v83 = fn9(info(3, "f"), fn4)
+
+					if not v83 then
+						fn6(428102605, 4)
+						n = 244379128
+						fn7()
+						v81 = arg
+						n18 += 1
+						return
+					end
+
+					v81 = arg
+					n18 += 1
+					return
+				end
+			else
+				if nil <= 5 then
+					if not fn9(info(3, "f"), fn4) then
+						fn6(428102605, 4)
+						n = 244379128
+						fn7()
+						v81 = arg
+						n18 += 1
+						return
+					end
+				end
+
+				v81 = arg
+				n18 += 1
+				return
+			end
+		end
+
+		n19 = 187613435
+		local v83, v84 = string.gsub(nil, ":([0-9]+)[\r\n:]", fn15, 1)
+		local v85 = nil
+		fn9(n18, 1)
+
+		if nil then
+		else
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(nil, 1)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		if nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		local n20 = v77 + 0
+		local n21 = v82 + 0
+		local n22 = v80 + 0
+		local n23 = v81 + 0
+		fn9(v76, v77)
+		local v86 = v85
+		local v87
+
+-- ----------- SL | Luraph V15.1 | Cracked ----------- [ https://discord.gg/zNyHGU6eUK ]
+		if nil then
+			v87 = n20
+		else
+			v87 = n20
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(v77, v82)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(v82, v80)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(v80, v81)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(nil, v87)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(v87, n21)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(n21, n22)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		fn9(n22, n23)
+
+		if not nil then
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		end
+
+		return nil
+	end
+
+	local v76 = fn4(v75)
+	local v77 = fn4(result)
+	local v78 = fn4(result2)
+
+	if fn9(v76, v77) then
+		fn5(312917812, 145)
+		n = v71
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	if fn9(v77, v78) then
+		fn5(312917812, 75)
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	if fn9(v78, v76) then
+		fn5(312917812, 86)
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	n = v71
+	local v79 = table.pack(p_1())
+-- This Luraph V15.1 Cracked By SL | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+
+	if v79[1] then
+		local v80 = v79[3]
+		local exitTo = nil
+		local kind
+
+		while true do
+			kind = type(v80)
+
+			if fn9(nil, kind) then
+				str = "[C]"
+				v67 = info(nil, "sl")
+				clone = fn9(str, v67)
+
+				if clone then
+					exitTo = 1
+					break
+				else
+					str = v76
+					v67 = nil
+					clone = fn9(str, v67)
+
+					if clone then
+						exitTo = 2
+						break
+					else
+						fn6(428102605, 4)
+						n = 244379128
+						fn7()
+						local v81 = table.pack(p_1())
+						if v81[1] then
+							v80 = v81[3]
+							continue
+						end
+					end
+				end
+
+				break
+			else
+				local v81 = table.pack(p_1())
+				if v81[1] then
+					v80 = v81[3]
+					continue
+				end
+				break
+			end
+		end
+
+		local exitTo3, exitTo2, exitTo5, exitTo4
+
+		if exitTo == 1 then
+			exitTo3 = nil
+
+			while true do
+				local v81 = table.pack(p_1())
+
+				if v81[1] then
+					v80 = v81[3]
+					exitTo2 = nil
+
+					while true do
+						kind = type(v80)
+
+						if fn9(nil, kind) then
+							str = "[C]"
+							v67 = info(nil, "sl")
+							clone = fn9(str, v67)
+
+							if clone then
+								exitTo2 = 1
+								break
+							else
+								str = v76
+								v67 = nil
+								clone = fn9(str, v67)
+
+								if clone then
+									exitTo2 = 2
+									break
+								else
+									fn6(428102605, 4)
+									n = 244379128
+									fn7()
+									local v82 = table.pack(p_1())
+									if v82[1] then
+										v80 = v82[3]
+										continue
+									end
+								end
+							end
+
+							break
+						else
+							local v82 = table.pack(p_1())
+							if v82[1] then
+								v80 = v82[3]
+								continue
+							end
+							break
+-- SL | Luraph V15.1 Cracked & Released | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+						end
+					end
+
+					if exitTo2 ~= 1 then
+						exitTo3 = 1
+						break
+					end
+				else
+					break
+				end
+			end
+
+			if exitTo3 == 1 then
+				if exitTo2 == 2 then
+					exitTo5 = nil
+
+					while true do
+						local v81 = table.pack(p_1())
+
+						if v81[1] then
+							v80 = v81[3]
+							exitTo4 = nil
+
+							while true do
+								kind = type(v80)
+
+								if fn9(nil, kind) then
+									str = "[C]"
+									v67 = info(nil, "sl")
+									clone = fn9(str, v67)
+
+									if clone then
+										exitTo4 = 1
+										break
+									else
+										str = v76
+										v67 = nil
+										clone = fn9(str, v67)
+
+										if clone then
+											exitTo4 = 2
+											break
+										else
+											fn6(428102605, 4)
+											n = 244379128
+											fn7()
+											local v82 = table.pack(p_1())
+											if v82[1] then
+												v80 = v82[3]
+												continue
+											end
+										end
+									end
+
+									break
+								else
+									local v82 = table.pack(p_1())
+									if v82[1] then
+										v80 = v82[3]
+										continue
+									end
+									break
+								end
+							end
+
+							if exitTo4 == 1 then
+								exitTo5 = 1
+								break
+							elseif exitTo4 == 2 then
+								continue
+							end
+
+							break
+						else
+							break
+						end
+					end
+
+					if exitTo5 == 1 then
+						while true do
+							exitTo3 = nil
+
+							while true do
+								local v81 = table.pack(p_1())
+
+								if v81[1] then
+									v80 = v81[3]
+									exitTo2 = nil
+
+									while true do
+										kind = type(v80)
+
+										if fn9(nil, kind) then
+											str = "[C]"
+											v67 = info(nil, "sl")
+											clone = fn9(str, v67)
+
+											if clone then
+												exitTo2 = 1
+-- ====== Luraph V15.1 Cracked By SL ====== [ https://discord.gg/zNyHGU6eUK ]
+												break
+											else
+												str = v76
+												v67 = nil
+												clone = fn9(str, v67)
+
+												if clone then
+													exitTo2 = 2
+													break
+												else
+													fn6(428102605, 4)
+													n = 244379128
+													fn7()
+													local v82 = table.pack(p_1())
+													if v82[1] then
+														v80 = v82[3]
+														continue
+													end
+												end
+											end
+
+											break
+										else
+											local v82 = table.pack(p_1())
+											if v82[1] then
+												v80 = v82[3]
+												continue
+											end
+											break
+										end
+									end
+
+									if exitTo2 ~= 1 then
+										exitTo3 = 1
+										break
+									end
+								else
+									break
+								end
+							end
+
+							if exitTo3 == 1 then
+								if exitTo2 == 2 then
+									exitTo5 = nil
+
+									while true do
+										local v81 = table.pack(p_1())
+
+										if v81[1] then
+											v80 = v81[3]
+											exitTo4 = nil
+
+											while true do
+												kind = type(v80)
+
+												if fn9(nil, kind) then
+													str = "[C]"
+													v67 = info(nil, "sl")
+													clone = fn9(str, v67)
+
+													if clone then
+														exitTo4 = 1
+														break
+													else
+														str = v76
+														v67 = nil
+														clone = fn9(str, v67)
+
+														if clone then
+															exitTo4 = 2
+															break
+														else
+															fn6(428102605, 4)
+															n = 244379128
+															fn7()
+															local v82 = table.pack(p_1())
+															if v82[1] then
+																v80 = v82[3]
+																continue
+															end
+														end
+													end
+
+													break
+												else
+													local v82 = table.pack(p_1())
+													if v82[1] then
+														v80 = v82[3]
+														continue
+													end
+													break
+												end
+											end
+
+											if exitTo4 == 1 then
+												exitTo5 = 1
+												break
+											elseif exitTo4 == 2 then
+												continue
+-- SL | Luraph V15.1 Cracked & Released | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+											end
+
+											break
+										else
+											break
+										end
+									end
+
+									if exitTo5 == 1 then
+										continue
+									end
+								end
+							end
+
+							break
+						end
+					end
+				end
+			end
+		elseif exitTo == 2 then
+			exitTo5 = nil
+
+			while true do
+				local v81 = table.pack(p_1())
+
+				if v81[1] then
+					v80 = v81[3]
+					exitTo4 = nil
+
+					while true do
+						kind = type(v80)
+
+						if fn9(nil, kind) then
+							str = "[C]"
+							v67 = info(nil, "sl")
+							clone = fn9(str, v67)
+
+							if clone then
+								exitTo4 = 1
+								break
+							else
+								str = v76
+								v67 = nil
+								clone = fn9(str, v67)
+
+								if clone then
+									exitTo4 = 2
+									break
+								else
+									fn6(428102605, 4)
+									n = 244379128
+									fn7()
+									local v82 = table.pack(p_1())
+									if v82[1] then
+										v80 = v82[3]
+										continue
+									end
+								end
+							end
+
+							break
+						else
+							local v82 = table.pack(p_1())
+							if v82[1] then
+								v80 = v82[3]
+								continue
+							end
+							break
+						end
+					end
+
+					if exitTo4 == 1 then
+						exitTo5 = 1
+						break
+					elseif exitTo4 == 2 then
+						continue
+					end
+
+					break
+				else
+					break
+				end
+			end
+
+			if exitTo5 == 1 then
+				while true do
+					exitTo3 = nil
+					local exitTo6 = nil
+
+					while true do
+						local v81 = table.pack(p_1())
+
+						if v81[1] then
+							v80 = v81[3]
+							exitTo2 = nil
+
+							while true do
+								kind = type(v80)
+
+-- ~~ Luraph V15.1 | Cracked By SL ~~ https://discord.gg/zNyHGU6eUK ~~
+								if fn9(nil, kind) then
+									str = "[C]"
+									v67 = info(nil, "sl")
+									clone = fn9(str, v67)
+
+									if clone then
+										exitTo2 = 1
+										break
+									else
+										str = v76
+										v67 = nil
+										clone = fn9(str, v67)
+
+										if clone then
+											exitTo2 = 2
+											break
+										else
+											fn6(428102605, 4)
+											n = 244379128
+											fn7()
+											local v82 = table.pack(p_1())
+											if v82[1] then
+												v80 = v82[3]
+												continue
+											end
+										end
+									end
+
+									break
+								else
+									local v82 = table.pack(p_1())
+									if v82[1] then
+										v80 = v82[3]
+										continue
+									end
+									break
+								end
+							end
+
+							if exitTo2 ~= 1 then
+								exitTo6 = 1
+								break
+							end
+						else
+							break
+						end
+					end
+
+					if exitTo6 == 1 then
+						exitTo3 = 1
+
+						if exitTo3 == 1 then
+							if exitTo2 == 2 then
+								exitTo5 = nil
+
+								while true do
+									local v81 = table.pack(p_1())
+
+									if v81[1] then
+										v80 = v81[3]
+										exitTo4 = nil
+
+										while true do
+											kind = type(v80)
+
+											if fn9(nil, kind) then
+												str = "[C]"
+												v67 = info(nil, "sl")
+												clone = fn9(str, v67)
+
+												if clone then
+													exitTo4 = 1
+													break
+												else
+													str = v76
+													v67 = nil
+													clone = fn9(str, v67)
+
+													if clone then
+														exitTo4 = 2
+														break
+													else
+														fn6(428102605, 4)
+														n = 244379128
+														fn7()
+														local v82 = table.pack(p_1())
+														if v82[1] then
+															v80 = v82[3]
+															continue
+														end
+													end
+												end
+
+												break
+											else
+												local v82 = table.pack(p_1())
+												if v82[1] then
+													v80 = v82[3]
+													continue
+-- [SL] Luraph V15.1 Cracked & Leaked | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+												end
+												break
+											end
+										end
+
+										if exitTo4 == 1 then
+											exitTo5 = 1
+											break
+										elseif exitTo4 == 2 then
+											continue
+										end
+
+										break
+									else
+										break
+									end
+								end
+
+								if exitTo5 == 1 then
+									continue
+								end
+							end
+						end
+					elseif exitTo3 == 1 then
+						if exitTo2 == 2 then
+							exitTo5 = nil
+
+							while true do
+								local v81 = table.pack(p_1())
+
+								if v81[1] then
+									v80 = v81[3]
+									exitTo4 = nil
+
+									while true do
+										kind = type(v80)
+
+										if fn9(nil, kind) then
+											str = "[C]"
+											v67 = info(nil, "sl")
+											clone = fn9(str, v67)
+
+											if clone then
+												exitTo4 = 1
+												break
+											else
+												str = v76
+												v67 = nil
+												clone = fn9(str, v67)
+
+												if clone then
+													exitTo4 = 2
+													break
+												else
+													fn6(428102605, 4)
+													n = 244379128
+													fn7()
+													local v82 = table.pack(p_1())
+													if v82[1] then
+														v80 = v82[3]
+														continue
+													end
+												end
+											end
+
+											break
+										else
+											local v82 = table.pack(p_1())
+											if v82[1] then
+												v80 = v82[3]
+												continue
+											end
+											break
+										end
+									end
+
+									if exitTo4 == 1 then
+										exitTo5 = 1
+										break
+									elseif exitTo4 == 2 then
+										continue
+									end
+
+									break
+								else
+									break
+								end
+							end
+
+							if exitTo5 == 1 then
+								continue
+							end
+						end
+					end
+
+					break
+				end
+			end
+		end
+-- [ SL x Luraph V15.1 ] Cracked & Open | discord.gg/zNyHGU6eUK
+	end
+end
+
+v27(nil --[[ the caller's registers ]], 296033538)
+setmetatable(nil --[[ the caller's registers ]], nil)
+
+do
+	local tbl6 = {}
+	local n18 = n17 + v63
+	local tbl7 = {}
+	local n19 = -1
+	local n20 = 255
+	local tbl8 = { n20, n19, 1, nil, v2 }
+	local n21 = 189
+	local n22 = 119
+	local v73 = tbl8
+
+	while true do
+		local n23 = v73[2] + v73[3]
+		v73[2] = n23
+
+		if nil then
+			local v74 = n23
+			local n24 = (n21 * v74 + n22) % 256
+			local n25 = (n21 * n24 + n22) % 256
+			local n26 = (n21 * n25 + n22) % 256
+			local n27 = (n21 * n26 + n22) % 256
+			tbl6[v74] = n24 + n25 * 256 + n26 * 65536 + n27 * 16777216
+			tbl7[v74] = n27
+		else
+			break
+		end
+	end
+
+	local v74 = v73[5]
+	buffer.create(16)
+	luraph_runtime5(table.pack(tbl6, tbl7), nil, nil)
+
+	local function fn14(arg, arg2, arg3)
+		local tbl9 = {}
+		local n23 = buffer.readu8(arg, arg2)
+		local n24, n25
+
+		if nil then
+			n24 = arg2 + 1
+		else
+			local v75 = buffer.readu8(arg, arg2 + 1)
+
+			if nil then
+				n23 = (n23 - 128) * 128 + v75
+				n24 = arg2 + 2
+				arg3 = bit32.bxor(bit32.bxor(arg3, 39811463), 39811463)
+			else
+				local n26 = nil // nil
+				local v76 = buffer.readu8(arg, arg2 + 2)
+
+				if not nil then
+					buffer.readu8(arg, arg2 + 3)
+					bit32.bxor(39811463, arg3)
+					error("SL: unresolved constant write (at 166:150)")
+				end
+
+				n23 = n23 - 128 + (v75 - 128) * 128 + v76 * 16384
+				n24 = arg2 + 3
+				n25 = n26 + 828437226
+			end
+		end
+
+		local v75 = buffer.readu8(arg, n24)
+		local n26 = n24 + 1
+		tbl9[5] = v75 ~= 0
+		local n27 = buffer.readu8(arg, n26)
+		local v76 = bit32.bxor(arg3, 39811463)
+		local n28, n29
+
+		if nil then
+			n28 = n26 + 1
+			n29 = nil - v76 + 404687993
+		else
+			local v77 = buffer.readu8(arg, n26 + 1)
+
+			if nil then
+				n27 = (n27 - 128) * 128 + v77
+				n28 = n26 + 2
+			else
+				local v78 = buffer.readu8(arg, n26 + 2)
+
+				if not nil then
+					bit32.band(n25, v76)
+					error("SL: unresolved constant write (at 166:422)")
+				end
+
+				n27 = n27 - 128 + (v77 - 128) * 128 + v78 * 16384
+				n28 = n26 + 3
+			end
+		end
+
+		local n30 = n27 - 91207
+		local v77 = table.create(n30)
+-- ----------- SL | Luraph V15.1 | Cracked ----------- [ https://discord.gg/zNyHGU6eUK ]
+		tbl9[7] = v77
+		local tbl10 = { n30 + 0, 0, 1, nil, nil }
+
+		while true do
+			local v78 = tbl10[3]
+			local v79 = tbl10[1]
+			local n31 = tbl10[2] + v78
+			local flag = v78 <= 0
+			tbl10[2] = n31
+
+			if n31 <= v79 then
+				local v80 = n31
+				local n32 = buffer.readu8(arg, n28)
+
+				if nil then
+					n28 += 1
+				else
+					local v81 = buffer.readu8(arg, n28 + 1)
+					local v82 = bit32.bxor(v76, 234875195)
+
+					if nil then
+						n32 = (n32 - 128) * 128 + v81
+						n28 += 2
+					else
+						local v83 = buffer.readu8(arg, n28 + 2)
+
+						if nil then
+							n32 = n32 - 128 + (v81 - 128) * 128 + v83 * 16384
+							n28 += 3
+						else
+							local n33 = n32 - 128 + (v81 - 128) * 2097152 + (v83 - 128) * 16384
+							local v84 = buffer.readu8(arg, n28 + 3)
+							n32 = n33 + v84 % 128 * 128 + (v84 - v84 % 128) * 2097152
+							n28 += 4
+							v82 = bit32.bxor(bit32.bxor(v82, 828437246), 828437246)
+						end
+					end
+
+					v76 = bit32.bxor(v82, 234875195)
+				end
+
+				v77[v80] = n32
+			else
+				break
+			end
+		end
+
+		local n31 = buffer.readu8(arg, n28)
+		local n32, n33
+
+		if nil then
+			n32 = 6
+			n33 = n28 + 1
+		else
+			n32 = 6
+			local v78 = buffer.readu8(arg, n28 + 1)
+
+			if nil then
+				n31 = (n31 - 128) * 128 + v78
+				n33 = n28 + 2
+			else
+				local v79 = buffer.readu8(arg, n28 + 2)
+
+				if not nil then
+					local v80 = buffer.readu8(arg, n28 + 3)
+					local v81 = bit32.bxor(v76, 828437246)
+					bit32.bxor(828437246, v81)
+					error("SL: unresolved constant write (at 166:532)")
+				end
+
+				local v80 = table.pack(bit32.band(n25, 4294967295))
+				local v81 = table.pack(bit32.band(n29, 4294967295))
+				local v82 = table.pack(bit32.band(v80[1], 65535))
+				local v83 = table.pack(bit32.rshift(v80[1], 16))
+				local v84 = table.pack(bit32.band(v81[1], 65535))
+				n31 = n31 - 128 + (v78 - 128) * 128 + v79 * 16384
+				n33 = n28 + 3
+				local n34 = bit32.band(v82[1] * v84[1] + bit32.lshift(bit32.band(v82[1] * bit32.rshift(v81[1], 16) + v83[1] * v84[1], 65535), 16), 4294967295) + 740606220
+			end
+		end
+
+		local v78 = buffer.create(n31)
+		buffer.copy(v78, 0, arg, n33, n31)
+		tbl9[n32] = v78
+		return (luraph_runtime7(tbl9, n23, 2))
+	end
+
+	if tbl3[false] then
+		fn5(312917812, 15)
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	local kind = type(table.pack(54311, 1748999696, 3280517374, 682779552, 2453788780, 1857957031, 1425269130, 422362683, 3206596790))
+
+	if not fn9("table", kind) then
+		fn6(428102605, 4)
+-- This Luraph V15.1 Cracked By SL | Source Leak [ https://discord.gg/zNyHGU6eUK ]
+		n = 244379128
+		bit32.band(n16, v64)
+		error("SL: unresolved constant write (at 21:334)")
+	end
+
+	fn5(312917812, 65)
+
+	if fn9(9, 9) then
+		fn5(312917812, 58)
+	else
+		fn6(428102605, 4)
+		n = 244379128
+		fn7()
+	end
+
+	local tbl9 = { 0, v74, nil, 9, 1 }
+	local v75 = tbl9
+	local flag
+
+	while true do
+		local n23 = v75[1] + v75[5]
+		flag = n23 <= v75[4]
+		v75[1] = n23
+
+		if nil then
+			local kind2 = type((table.pack(54311, 1748999696, 3280517374, 682779552, 2453788780, 1857957031, 1425269130, 422362683, 3206596790))[n23])
+			fn9("number", kind2)
+			if nil then
+				continue
+			end
+			fn6(428102605, 4)
+			n = 244379128
+			fn7()
+		else
+			break
+		end
+	end
+
+	local n23 = 2850538260
+	local v76 = table.pack(54311, 1748999696, 3280517374, 682779552, 2453788780, 1857957031, 1425269130, 422362683, 3206596790)
+	local flag2 = v65 == 165.00000000002453
+	local v77
+
+	while true do
+		local v78 = table.pack(p_0())
+
+		if v78[1] then
+			fn9 = v78[3]
+			local v79 = table.pack(v77(n18, n23, v76, flag, flag2, nil, v78[2], fn9, v, clone, str, v67, tbl8, n20, n19, tbl9))
+			v77 = v79[1]
+			n18 = v79[2]
+			n23 = v79[3]
+			v76 = v79[4]
+			flag = v79[5]
+			flag2 = v79[6]
+			fn9 = v79[9]
+			v = v79[10]
+			clone = v79[11]
+			str = v79[12]
+			v67 = v79[13]
+			tbl8 = v79[14]
+			n20 = v79[15]
+			n19 = v79[16]
+			tbl9 = v79[17]
+			x = v79[47]
+			info = v79[53]
+			fn11 = v79[54]
+			udim2 = v79[59]
+			new4 = v79[60]
+			Folder = v79[64]
+			v70 = v79[66]
+			n4 = v79[67]
+			str2 = v79[78]
+			udim = v79[80]
+			wait = v79[87]
+			tbl = v79[90]
+			tbl2 = v79[91]
+		else
+			v77 = x(nil --[[ constant unavailable ]])
+		end
+	end
+end
+
+
+-- This Luraph V15.1 Cracked By SL | Source Leak [ https://discord.gg/zNyHGU6eUK ]
