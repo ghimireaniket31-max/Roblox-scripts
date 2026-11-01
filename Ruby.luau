@@ -1,6 +1,3 @@
--- Recovered Luau source by ZeroVector
-local v, tbl
-
 do
     loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/Blox-Fruits/refs/heads/main/core.luau"))()
 
